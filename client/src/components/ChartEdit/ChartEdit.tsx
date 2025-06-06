@@ -68,6 +68,7 @@ const ChartEdit = () => {
                 }
 
                 const chartData = result.data;
+                console.log('取得した譜面データ:', chartData);
                 const authorStr = chartData.author.ja || chartData.author.en || '';
                 setChart(chartData);
 
@@ -79,10 +80,32 @@ const ChartEdit = () => {
                 setRating(chartData.rating || 0);
                 setCoverPreview(chartData.coverUrl);
 
-                setDifficultyTag(chartData.difficultyTag || 'Master');
-                setIsPublic(chartData.isPublic !== false); // falseのときだけfalse
-                setIsDerivative(chartData.derivative === true); // trueのときだけtrue
-                setFileOpen(chartData.fileOpen === true); // trueのときだけtrue
+                // 難易度タグの設定 - 値が存在する場合のみセット
+                const difficulty = chartData.difficultyTag || chartData.meta?.difficultyTag;
+                if (difficulty && DIFFICULTY_TAGS.some(tag => tag.value === difficulty)) {
+                    setDifficultyTag(difficulty);
+                } else {
+                    setDifficultyTag('Master'); // デフォルト値
+                }
+
+                // 公開設定の引継ぎ - meta内にある場合を考慮
+                const publicSetting =
+                    typeof chartData.isPublic === 'boolean' ? chartData.isPublic :
+                        typeof chartData.meta?.isPublic === 'boolean' ? chartData.meta.isPublic :
+                            true; // デフォルトは公開
+                setIsPublic(publicSetting);
+
+                // 派生譜面設定
+                const derivativeSetting =
+                    chartData.derivative === true ||
+                    chartData.meta?.derivative === true;
+                setIsDerivative(derivativeSetting);
+
+                // ファイル公開設定
+                const fileOpenSetting =
+                    chartData.fileOpen === true ||
+                    chartData.meta?.fileOpen === true;
+                setFileOpen(fileOpenSetting);
 
                 setLoading(false);
             } catch (err) {
@@ -128,14 +151,16 @@ const ChartEdit = () => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!chart) return;
+
+
         const originalAuthor = chart.author.ja || chart.author.en || '';
-        const handleMatch = originalAuthor.match(/#(.+)$/);
+        const handleMatch = originalAuthor.match(/#([^#]+)$/);
         const sonolusHandle = handleMatch ? handleMatch[1] : null;
 
         // ユーザー入力のauthor + 抽出したハンドルを組み合わせる
-        let authorWithHandle = author;
-        if (sonolusHandle) {
-            authorWithHandle = `${author}#${sonolusHandle}`;
+        let authorWithHandle = author.trim();
+        if (sonolusHandle && !authorWithHandle.includes(`#${sonolusHandle}`)) {
+            authorWithHandle = `${authorWithHandle}#${sonolusHandle}`;
         }
         try {
             setSaving(true);

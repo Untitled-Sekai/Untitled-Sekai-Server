@@ -275,6 +275,7 @@ const Profile: React.FC = () => {
                 </Link>
                 <div className="horizontal-charts-container">
                     <MyChartList
+                        key={`${user.username}-${Date.now()}`}
                         username={user.username}
                         isCurrentUser={isCurrentUser}
                         type='uploaded'

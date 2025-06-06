@@ -42,10 +42,16 @@ const MyChartList: React.FC<MyChartListProps> = ({
   useEffect(() => {
     const fetchCharts = async () => {
       setLoading(true);
+      setError(null);
       try {
-        const endpoint = type === 'liked'
-          ? `/api/charts/liked/user/${username}`
-          : `/api/charts/user/${username}`;
+        const timestamp = new Date().getTime();
+        let endpoint = '';
+
+        if (type === 'liked') {
+          endpoint = `/api/charts/${username}/liked?_t=${timestamp}`;
+        } else {
+          endpoint = `/api/charts/user/${username}?_t=${timestamp}`;
+        }
 
         const requestOptions: RequestInit = {};
 

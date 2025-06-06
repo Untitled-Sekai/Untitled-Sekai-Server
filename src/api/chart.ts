@@ -204,17 +204,39 @@ export const getUserCharts = async () => {
 
             const publicFilter = isOwner ? {} : { 'meta.isPublic': true };
 
-            const charts = await LevelModel.find({
-                $and: [
-                    {
-                        $or: [
-                            { 'author.ja': { $regex: username, $options: 'i' } },
-                            { 'author.en': { $regex: username, $options: 'i' } }
-                        ]
-                    },
-                    publicFilter
-                ]
-            }).sort({ createdAt: -1 }).lean().exec();
+            const userWithHandle = await UserModel.findOne({ username }).select('sonolusProfile');
+            const userHandle = userWithHandle?.sonolusProfile?.handle;
+
+            let chartsQuery = {};
+            if (userHandle) {
+                chartsQuery = {
+                    $and: [
+                        {
+                            $or: [
+                                { 'author.ja': { $regex: `#${userHandle}($|\\s)`, $options: 'i' } },
+                                { 'author.en': { $regex: `#${userHandle}($|\\s)`, $options: 'i' } },
+                                { 'author.ja': username },
+                                { 'author.en': username }
+                            ]
+                        },
+                        publicFilter
+                    ]
+                };
+            } else {
+                chartsQuery = {
+                    $and: [
+                        {
+                            $or: [
+                                { 'author.ja': { $regex: `^${username}(#|\\s|$)`, $options: 'i' } },
+                                { 'author.en': { $regex: `^${username}(#|\\s|$)`, $options: 'i' } }
+                            ]
+                        },
+                        publicFilter
+                    ]
+                };
+            }
+
+            const charts = await LevelModel.find(chartsQuery).sort({ createdAt: -1 }).lean().exec();
 
             const collabCharts = await LevelModel.find({
                 $and: [
@@ -226,9 +248,6 @@ export const getUserCharts = async () => {
             })
                 .lean()
                 .exec();
-
-            const userWithHandle = await UserModel.findOne({ username }).select('sonolusProfile');
-            const userHandle = userWithHandle?.sonolusProfile?.handle;
 
             const anonymousCharts = userHandle ? await LevelModel.find({
                 $and: [
