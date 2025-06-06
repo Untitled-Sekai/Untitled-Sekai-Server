@@ -1,0 +1,495 @@
+.chart-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: #6c5ce7;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: #5649c9;
+}
+
+.chart-detail-header {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.chart-cover-large {
+    flex: 0 0 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.chart-cover-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chart-info-main {
+    flex: 1;
+}
+
+.chart-info-main h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.chart-artist-row {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.chart-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.chart-meta-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.2rem;
+}
+
+.value {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.value.rating {
+    color: #666;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.chart-uploaded {
+    margin-bottom: 1.5rem;
+}
+
+.chart-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.tag {
+    background-color: #f0f0f0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.chart-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.play-button.large {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 600;
+}
+
+.play-button.large:hover {
+    background-color: #575757;
+}
+
+.preview-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.preview-button:hover {
+    background-color: #e5e5e5;
+}
+
+.preview-button.playing {
+    background-color: #ffeaa7;
+    border-color: #fdcb6e;
+}
+
+.chart-description-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.chart-description-section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.chart-technical-section {
+    margin-bottom: 2rem;
+}
+
+.chart-technical-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.technical-info {
+    padding: 1.5rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.technical-row {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.technical-row:last-child {
+    margin-bottom: 0;
+}
+
+.technical-row .label {
+    flex: 0 0 100px;
+    font-weight: 500;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background-color: #4834d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.download-link:hover {
+    background-color: #3b2bbf;
+}
+
+.chart-detail-loading {
+    text-align: center;
+    padding: 5rem;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.chart-detail-error {
+    text-align: center;
+    padding: 3rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chart-detail-error h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e74c3c;
+}
+
+.chart-detail-error p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: #5649c9;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .chart-detail-header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .chart-cover-large {
+        flex: none;
+        max-width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .chart-info-main h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .chart-meta-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .chart-actions {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .play-button.large,
+    .preview-button {
+        width: 100%;
+    }
+}
+
+.edit-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 600;
+}
+
+.edit-button:hover {
+    background-color: #27ae60;
+}
+
+/* レスポンシブ対応も修正 */
+@media (max-width: 480px) {
+    .chart-meta-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .chart-actions {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .play-button.large,
+    .preview-button,
+    .edit-button {
+        width: 100%;
+    }
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.chart-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.download-button {
+    background-color: #4c5baf;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #4645a0;
+}
+
+.author-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-author {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-author:hover {
+    text-decoration: underline;
+}
+
+.collab-members {
+    margin-top: 8px;
+}
+
+.collab-label {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.collab-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.collab-member {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    color: #0078d7;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.collab-member:hover {
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
+}
+
+.collab-member.loading {
+    color: #888;
+    font-style: italic;
+}
+
+.collab-members {
+    margin-top: 12px;
+}
+
+.collab-label {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.collab-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.collab-member {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 8px 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.collab-member:hover {
+    background: rgba(108, 92, 231, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.member-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.member-handle {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.collab-member.loading {
+    color: #888;
+    font-style: italic;
+}
+
+.collab-member.error .unknown-user {
+    color: #888;
+    font-style: italic;
+}
+
+.main-author {
+    font-weight: bold;
+    color: #0078d7;
+}
+
+.anonymous-author {
+    color: #6c757d;
+    font-style: italic;
+    display: inline-flex;
+    align-items: center;
+}
+
+.anonymous-author::before {
+    content: "副名義";
+    font-size: 0.7em;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+    padding: 0 4px;
+    margin-right: 6px;
+}

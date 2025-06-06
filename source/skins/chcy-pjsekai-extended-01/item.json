@@ -1,0 +1,38 @@
+{
+    "name": "chcy-pjsekai-extended-01",
+    "source": "https://cc.sevenc7c.com",
+    "version": 4,
+    "title": {
+        "en": "PJSekai+ / Type 1",
+        "ja": "PJSekai+ / Type 1"
+    },
+    "subtitle": {
+        "en": "PJSekai Extended",
+        "ja": "PJSekai Extended"
+    },
+    "author": {
+        "en": "Sonolus + Nanashi.",
+        "ja": "Sonolus + Nanashi."
+    },
+    "tags": [],
+    "thumbnail": {
+        "hash": "24faf30cc2e0d0f51aeca3815ef523306b627289",
+        "url": "/sonolus/repository/24faf30cc2e0d0f51aeca3815ef523306b627289"
+    },
+    "data": {
+        "hash": "6cea40fb372ebf8862e146c15e200c7b8434fb96",
+        "url": "/sonolus/repository/6cea40fb372ebf8862e146c15e200c7b8434fb96"
+    },
+    "texture": {
+        "hash": "50f9586e1144fd5dce0dd5a90038d4a195c1ebf7",
+        "url": "/sonolus/repository/50f9586e1144fd5dce0dd5a90038d4a195c1ebf7"
+    },
+    "description": {
+        "en": "PJSekai extended skin for Sonolus",
+        "ja": "Sonolusのための拡張PJSekaiスキン"
+    },
+    "actions": [],
+    "hasCommunity": false,
+    "leaderboards": [],
+    "sections": []
+}

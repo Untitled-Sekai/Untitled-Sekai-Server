@@ -1,0 +1,70 @@
+.settings {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.settings h1 {
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.settings-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.settings-section h2 {
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+}
+
+.language-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.language-button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.language-button:hover {
+  border-color: var(--accent-color);
+}
+
+.language-button.active {
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+  transform: scale(1.05);
+}
+
+.language-info {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.settings-footer {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 500px) {
+  .language-selector {
+    flex-direction: column;
+  }
+}

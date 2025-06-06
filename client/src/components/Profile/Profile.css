@@ -1,0 +1,404 @@
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-username {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}
+
+.profile-userid {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0 0 1rem;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 2rem;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-value {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.edit-profile-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.edit-profile-button:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+.profile-description,
+.profile-uploads,
+.profile-likes {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-description h2,
+.profile-uploads h2,
+.profile-likes h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.profile-description p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555;
+    white-space: pre-wrap;
+}
+
+.charts-placeholder {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #666;
+}
+
+.profile-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.profile-error {
+    text-align: center;
+    padding: 3rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-error h2 {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+}
+
+.profile-error p {
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: #5649c9;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .profile-stats {
+        justify-content: center;
+    }
+
+    .edit-profile-button {
+        margin-top: 1rem;
+    }
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sonolus-auth-button {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sonolus-auth-button:hover {
+    background-color: #5649c9;
+    transform: translateY(-2px);
+}
+
+.sonolus-auth-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.sonolus-verified {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6fff2;
+    border: 1px solid #a3e9c6;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    color: #00b873;
+    font-weight: 500;
+    align-items: center;
+}
+
+.verified-badge {
+    background-color: #00b873;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.sonolus-profile {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+}
+
+.sonolus-profile p {
+    margin: 5px 0;
+}
+
+.sonolus-error {
+    color: #e74c3c;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* レスポンシブ対応も忘れずに～ */
+@media (max-width: 768px) {
+    .profile-actions {
+        width: 100%;
+    }
+}
+
+.sonolus-badge {
+    display: inline-block;
+    background: #6c5ce7;
+    color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+    animation: pulse 2s infinite;
+}
+
+.sonolus-user-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(108, 92, 231, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 6px rgba(108, 92, 231, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(108, 92, 231, 0);
+    }
+}
+
+.user-charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.charts-loading {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
+
+.charts-placeholder .upload-button {
+    display: inline-block;
+    margin-top: 15px;
+    background: #6c5ce7;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.charts-placeholder .upload-button:hover {
+    background: #5649c9;
+    transform: translateY(-2px);
+}
+
+.chart-count {
+    font-size: 1rem;
+    color: #666;
+    font-weight: normal;
+}
+
+.view-all-link {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    color: #6c5ce7;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.view-all-link:hover {
+    color: #5649c0;
+    text-decoration: underline;
+}
+
+.follow-button {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.follow-button:hover {
+    background-color: #5649c9;
+    transform: translateY(-2px);
+}
+
+.follow-button.following {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.follow-button.following:hover {
+    background-color: #ff5252;
+    color: white;
+}
+
+.follow-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.stat-item:hover {
+    transform: translateY(-3px);
+}
+
+.horizontal-charts-container {
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.horizontal-charts-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.horizontal-charts-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.horizontal-charts-container::after {
+  content: '';
+  display: block;
+  padding-right: 20px;
+}

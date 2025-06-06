@@ -1,0 +1,44 @@
+{
+    "name": "chcy-pjsekai-v1",
+    "source": "https://cc.sevenc7c.com",
+    "version": 3,
+    "title": {
+        "en": "PJSekai / v1",
+        "ja": "PJSekai / v1"
+    },
+    "subtitle": {
+        "en": "From servers.sonolus.com/pjsekai",
+        "ja": "From servers.sonolus.com/pjsekai"
+    },
+    "author": {
+        "en": "Sonolus",
+        "ja": "Sonolus"
+    },
+    "tags": [],
+    "thumbnail": {
+        "hash": "e5f439916eac9bbd316276e20aed999993653560",
+        "url": "/sonolus/repository/e5f439916eac9bbd316276e20aed999993653560"
+    },
+    "data": {
+        "hash": "7e104fd0d8eb38aacbeee3594a5d0aae5ababee8",
+        "url": "/sonolus/repository/7e104fd0d8eb38aacbeee3594a5d0aae5ababee8"
+    },
+    "texture": {
+        "hash": "57b4bd504f814150dea87b41f39c2c7a63f29518",
+        "url": "/sonolus/repository/57b4bd504f814150dea87b41f39c2c7a63f29518"
+    },
+    "description": {
+        "en": "PJSekai particles for Sonolus",
+        "ja": "Sonolusのための PJSekai パーティクル"
+    },
+    "actions": [],
+    "hasCommunity": false,
+    "leaderboards": [],
+    "sections": [
+        {
+            "itemType": "particle",
+            "title": "#NEWEST",
+            "items": []
+        }
+    ]
+}

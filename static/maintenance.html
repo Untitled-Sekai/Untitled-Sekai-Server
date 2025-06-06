@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ただいまメンテナンス中です</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .maintenance-container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #4a6cf7;
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+        
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .info {
+            margin: 25px 0;
+            line-height: 1.6;
+        }
+        
+        .estimated-time {
+            background-color: #e8f0fe;
+            color: #174ea6;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .contact {
+            margin-top: 30px;
+            color: #666;
+        }
+        
+        .contact a {
+            color: #4a6cf7;
+            text-decoration: none;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 500px) {
+            .maintenance-container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        .loading {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .loading span {
+            width: 15px;
+            height: 15px;
+            margin: 0 5px;
+            background-color: #4a6cf7;
+            border-radius: 50%;
+            display: inline-block;
+            animation: bounce 1.5s infinite ease-in-out both;
+        }
+        
+        .loading span:nth-child(1) {
+            animation-delay: -0.3s;
+        }
+        
+        .loading span:nth-child(2) {
+            animation-delay: -0.15s;
+        }
+        
+        @keyframes bounce {
+            0%, 80%, 100% { 
+                transform: scale(0);
+            } 
+            40% { 
+                transform: scale(1.0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-container">
+        <div class="icon">🛠️</div>
+        <h1>メンテナンス中</h1>
+        
+        <div class="info">
+            システムをさらに良くするためのアップデート作業を行っています。<br>
+            ご不便をおかけして申し訳ありませんが、しばらくお待ちください。
+        </div>
+        
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <div class="estimated-time">
+            予定復旧時間: xxxx年x月xx日 00:00
+        </div>
+        
+        <div class="contact">
+            ご質問がある場合は、<a href="mailto:support@example.com">support@example.com</a> までお問い合わせください。
+        </div>
+    </div>
+</body>
+</html>

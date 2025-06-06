@@ -1,0 +1,89 @@
+.chart-card {
+  display: block;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chart-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.chart-cover {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 正方形のアスペクト比 */
+  overflow: hidden;
+}
+
+.chart-cover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chart-rating {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.chart-badge {
+  position: absolute;
+  top: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.chart-badge.private {
+  right: 10px;
+  background: rgba(234, 84, 85, 0.9);
+  color: white;
+}
+
+.chart-badge.collab {
+  left: 10px;
+  background: rgba(108, 92, 231, 0.9);
+  color: white;
+}
+
+.chart-info {
+  padding: 12px;
+}
+
+.chart-title {
+  margin: 0;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chart-artist {
+  margin: 4px 0 8px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.chart-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #999;
+}

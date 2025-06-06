@@ -1,0 +1,13 @@
+node_modules
+dist
+pack
+public
+.env
+package-lock.json
+Cargo.lock
+target
+Caddyfile
+docker-compose.yml
+DockerFile
+DockerFile.sub-image
+repository

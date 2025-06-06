@@ -1,0 +1,105 @@
+.banned-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.banned-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.banned-header {
+  background-color: #e74c3c;
+  padding: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.banned-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.banned-content {
+  padding: 2rem;
+}
+
+.banned-message {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.banned-details {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.detail-item:last-child {
+  margin-bottom: 0;
+}
+
+.detail-label {
+  font-weight: 600;
+  width: 100px;
+  flex-shrink: 0;
+  color: #555;
+}
+
+.detail-value {
+  flex-grow: 1;
+}
+
+.banned-footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #666;
+}
+
+.banned-footer p {
+  margin-bottom: 1rem;
+}
+
+.banned-footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.banned-footer a:hover {
+  text-decoration: underline;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #3498db;
+  color: white !important;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.home-link:hover {
+  background-color: #2980b9;
+  text-decoration: none !important;
+}

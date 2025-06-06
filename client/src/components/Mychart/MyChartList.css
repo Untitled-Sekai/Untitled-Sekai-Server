@@ -1,0 +1,138 @@
+.charts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.chart-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12);
+}
+
+.chart-cover {
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chart-cover-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.chart-info {
+  padding: 12px;
+}
+
+.chart-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chart-artist {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chart-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+}
+
+.chart-rating {
+  color: #000000;
+  font-weight: 600;
+}
+
+.chart-collab-badge {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.chart-status-public {
+  background-color: #00b873;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.chart-status-private {
+  background-color: #888;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.charts-loading, .charts-error, .charts-empty {
+  padding: 30px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  color: #666;
+}
+
+.charts-error {
+  color: #e74c3c;
+}
+
+.chart-list-horizontal {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  padding: 10px 0;
+  min-width: 100%;
+}
+
+.chart-item-horizontal {
+  min-width: 280px;
+  flex: 0 0 auto;
+  margin-right: 0;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .chart-item-horizontal {
+    min-width: 200px;
+  }
+}
