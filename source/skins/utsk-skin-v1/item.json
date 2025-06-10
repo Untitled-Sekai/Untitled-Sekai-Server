@@ -1,5 +1,5 @@
 {
-    "name": "chcy-pjsekai-extended-01",
+    "name": "utsk-pjsekai",
     "source": "https://cc.sevenc7c.com",
     "version": 4,
     "title": {
@@ -11,8 +11,8 @@
         "ja": "PJSekai Extended"
     },
     "author": {
-        "en": "Sonolus + Nanashi.",
-        "ja": "Sonolus + Nanashi."
+        "en": "Sonolus + Nanashi. + pim4n",
+        "ja": "Sonolus + Nanashi. + pim4n"
     },
     "tags": [],
     "thumbnail": {

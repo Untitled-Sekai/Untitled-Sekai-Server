@@ -99,7 +99,23 @@ const ChartDetail: React.FC = () => {
                     currentUser.sonolusProfile?.handle === parseInt(String(originalHandle));
             }
 
-            setHasEditPermission(isAdmin || isAuthor || isModerator);
+            if (!isAuthor && chart.meta?.anonymous?.isAnonymous && chart.meta.anonymous.original_handle) {
+                const originalHandle = chart.meta.anonymous.original_handle;
+                isAuthor = currentUser.sonolusProfile?.handle === originalHandle ||
+                    currentUser.sonolusProfile?.handle === parseInt(String(originalHandle))
+            }
+
+            let isAltAccount = false;
+            if (!isAuthor && currentUser.anonymousaccount && currentUser.anonymousaccount.length > 0 && authorHandle) {
+                interface AnonymousAccount {
+                    id: string;
+                }
+                isAltAccount = currentUser.anonymousaccount.some((account: AnonymousAccount) => {
+                    const altId = account.id.replace('#', '');
+                    return altId === authorHandle;
+                });
+            }
+            setHasEditPermission(isAdmin || isAuthor || isModerator || isAltAccount);
         }
     }, [chart, currentUser]);
 

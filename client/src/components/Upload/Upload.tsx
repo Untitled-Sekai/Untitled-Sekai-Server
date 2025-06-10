@@ -185,6 +185,7 @@ const Upload: React.FC = () => {
             text: INFO_MESSAGE.UPLOADING.ja
         });
 
+
         try {
             // FormDataの作成
             const formData = new FormData();
@@ -271,9 +272,15 @@ const Upload: React.FC = () => {
                 text: SUCCESS_MESSAGE.UPLOAD_SUCCESS.ja
             });
 
-            setTimeout(() => {
-                navigate('/charts');
-            }, 5000);
+            if (data.chartId) {
+                setTimeout(() => {
+                    navigate(`/charts/${data.chartId}`);
+                }, 3000);
+            } else {
+                setTimeout(() => {
+                    navigate('/charts');
+                }, 3000);
+            }
 
         } catch (error) {
             console.error('アップロードエラー:', error);

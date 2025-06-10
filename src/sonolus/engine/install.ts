@@ -5,7 +5,7 @@ import { sonolus } from "../../index.js";
 export const installEngine = () => {
     sonolus.engine.items.push({
         ...engineInfo,
-        skin: 'chcy-pjsekai-extended-01',
+        skin: 'utsk-skin-v1',
         background: 'darkblue',
         effect: 'chcy-pjsekai-fixed',
         particle: 'chcy-pjsekai-v3',
