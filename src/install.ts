@@ -13,7 +13,8 @@ import { LevelItemModel,BackgroundItemModel } from "@sonolus/express";
 
 export const install = async () => {
     console.log("Installing Sonolus...");
-    // startBot();
+    startBot();
+    const isDocker = process.env.MONGODB_URI?.includes('mongodb://mongodb');
     await connectDB();
 
     installSonolus();

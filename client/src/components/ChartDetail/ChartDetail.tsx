@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 import './ChartDetail.css';
 import { ChartDetail as ChartDetailType } from '../../../../src/models/level'
 import CollaborationMember from './CollaborationMember';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const ChartDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();
@@ -261,7 +263,7 @@ const ChartDetail: React.FC = () => {
                         <button
                             className="play-button large"
                             onClick={() => {
-                                window.location.href = `https://open.sonolus.com/${window.location.host}/levels/${chart.name}`;
+                                window.open(`https://open.sonolus.com/${window.location.host}/levels/${chart.name}`, "_blank");
                             }}
                         >
                             Sonolusで開く
@@ -313,7 +315,24 @@ const ChartDetail: React.FC = () => {
 
             <div className="chart-description-section">
                 <h2>譜面説明</h2>
-                <p>{chart.description.ja || chart.description.en || '説明なし'}</p>
+                <div className="markdown-description">
+                    <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                            a: ({ href, children }) => (
+                                <a
+                                    href={href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {children}
+                                </a>
+                            )
+                        }}
+                    >
+                        {chart.description.ja || chart.description.en || '説明なし'}
+                    </ReactMarkdown>
+                </div>
             </div>
         </div>
     );

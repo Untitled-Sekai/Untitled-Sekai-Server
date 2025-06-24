@@ -15,7 +15,6 @@ export const api = () => {
     newChartApis();
     anonymous();
     ogp();
-
     // webhook
     registerWebhookApi();
     getExternalNewCharts();

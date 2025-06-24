@@ -1,0 +1,51 @@
+FROM rust:latest as builder
+
+WORKDIR /usr/src/app
+
+# Install build dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    ca-certificates \
+    pkg-config \
+    libssl-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy manifests
+COPY sub-image/Cargo.toml ./sub-image/
+COPY Cargo.toml Cargo.lock ./
+
+# Copy source code
+COPY sub-image/src ./sub-image/src
+
+# Build project with static linking
+RUN cargo build --release --bin sub-image
+
+# Runtime stage - using newer Debian
+FROM debian:bookworm-slim
+
+# Install runtime dependencies
+RUN apt-get update && \
+    apt-get install -y \
+    ca-certificates \
+    libssl3 \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /usr/local/bin
+
+# Copy binary and set permissions
+COPY --from=builder /usr/src/app/target/release/sub-image ./
+RUN chmod +x /usr/local/bin/sub-image
+
+# Set environment variables
+ENV RUST_LOG=info
+ENV HOST=0.0.0.0
+ENV PORT=4003
+
+EXPOSE 4003
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:4003/health || exit 1
+
+CMD ["./sub-image"]

@@ -10,7 +10,7 @@ export const setupUserRoutes = () => {
 
     sonolus.router.get('/api/me', authMiddleware, async (req: any, res: any) => {
         try {
-            const user = await UserModel.findById(req.user._id).select('-password');
+            const user = await UserModel.findOne({ _id: req.user._id }).select('-password');
 
             if (!user) {
                 return res.status(404).json({ message: "user is not found" });

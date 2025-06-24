@@ -10,6 +10,7 @@ import { Background } from "../../models/background.js";
 import { MESSAGE } from "../../message.js";
 import { isValidSession, getProfile } from "../auth/state.js";
 import { UserModel } from "../../models/user.js";
+import { AuthRequest } from "../../api/middleware/isAuth.js";
 
 import multer from "multer";
 import crypto from "crypto";
@@ -22,6 +23,35 @@ const upload = multer({
     storage: multer.memoryStorage(),
     limits: { fileSize: 35 * 1024 * 1024 }, // 35mb
 });
+
+// check charter
+const isChartOwner = async (req: AuthRequest, levelName: string) => {
+    const level = await LevelModel.findOne({ name: levelName });
+    if (!level) return false;
+
+    // allow if the user role is admin or moderator
+    if (req.user.role === 'adnmin' || req.user.role === 'moderator') return true;
+
+    const authorHandle = level.author?.ja?.split('#')[1] || "";
+    if (!authorHandle) return false;
+
+    if (req.user.sonolusProfile?.handle === parseInt(authorHandle)) return true;
+
+    if (level.meta?.anonymous?.isAnonymous &&
+        req.user.sonolusProfile?.handle === level.meta.anonymous.original_handle) {
+        return true;
+    }
+
+    if (level.meta?.collaboration?.iscollaboration && level.meta.collaboration.members) {
+        const isCollaborator = level.meta.collaboration.members.some(
+            (member) => member.handle != null && member.handle === req.user.sonolusProfile?.handle
+        );
+        if (isCollaborator) return true;
+    }
+
+    return false;
+}
+
 // uploadLevel
 export const uploadLevel = () => {
     sonolus.router.post('/api/chart/upload',
@@ -31,9 +61,9 @@ export const uploadLevel = () => {
             { name: 'bgm', maxCount: 1 }
         ]),
 
-        ((req, res, next) => {
+        ((req: AuthRequest, res, next) => {
             (async () => {
-                try {
+                try {                    
                     // console.log('uploadLevel'); debug
                     const files = req.files as {
                         [fieldname: string]: Express.Multer.File[];
@@ -319,8 +349,8 @@ export const editLevel = () => {
                         },
                         anonymous: {
                             isAnonymous: meta.anonymous?.isAnonymous || false,
-                            anonymous_handle: typeof meta.anonymous?.anonymous_handle === 'string' 
-                                ? meta.anonymous.anonymous_handle 
+                            anonymous_handle: typeof meta.anonymous?.anonymous_handle === 'string'
+                                ? meta.anonymous.anonymous_handle
                                 : '',
                             original_handle: Number(meta.anonymous?.original_handle) || 0
                         }

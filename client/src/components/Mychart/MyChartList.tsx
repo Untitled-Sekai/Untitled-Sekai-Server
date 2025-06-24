@@ -48,7 +48,7 @@ const MyChartList: React.FC<MyChartListProps> = ({
         let endpoint = '';
 
         if (type === 'liked') {
-          endpoint = `/api/charts/${username}/liked?_t=${timestamp}`;
+          endpoint = `/api/charts/liked/user/${username}`;
         } else {
           endpoint = `/api/charts/user/${username}?_t=${timestamp}`;
         }

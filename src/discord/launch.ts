@@ -2,6 +2,7 @@ import { Client, GatewayIntentBits, Events } from 'discord.js';
 import chalk from 'chalk';
 import dotenv from 'dotenv';
 import { command } from './command.js';
+import { setupAutomaticBackup } from './functions.js';
 
 dotenv.config();
 const botToken = process.env.DISCORD_BOT_TOKEN;
@@ -19,6 +20,8 @@ export const client = new Client({
 
 client.once(Events.ClientReady, (c) => {
     console.log(chalk.green(`Launched Discord bot as ${c.user.tag}`));
+
+    setupAutomaticBackup(client);
 })
 
 command(client);

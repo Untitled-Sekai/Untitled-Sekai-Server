@@ -493,3 +493,114 @@
     padding: 0 4px;
     margin-right: 6px;
 }
+
+/* ChartDetail.css に追加 */
+.markdown-description {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 16px;
+    word-break: break-word;
+    line-height: 1.5;
+}
+
+/* マークダウン要素のスタイル */
+.markdown-description h1 {
+    font-size: 1.8em;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3em;
+}
+
+.markdown-description h2 {
+    font-size: 1.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3em;
+}
+
+.markdown-description h3 {
+    font-size: 1.3em;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-description h4 {
+    font-size: 1.2em;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-description p {
+    margin: 0.5em 0;
+}
+
+.markdown-description a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.markdown-description a:hover {
+    text-decoration: underline;
+}
+
+.markdown-description code {
+    background-color: rgba(27, 31, 35, 0.05);
+    border-radius: 3px;
+    font-family: monospace;
+    padding: 0.2em 0.4em;
+    font-size: 0.9em;
+}
+
+.markdown-description pre {
+    background-color: rgba(27, 31, 35, 0.1);
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.markdown-description blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 16px;
+    margin-left: 0;
+    color: #555;
+}
+
+.markdown-description ul, 
+.markdown-description ol {
+    padding-left: 2em;
+}
+
+.markdown-description hr {
+    height: 0.25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #e1e4e8;
+    border: 0;
+}
+
+.markdown-description table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.markdown-description table th,
+.markdown-description table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+
+.markdown-description table th {
+    background-color: #f6f8fa;
+}
+
+.markdown-description img {
+    max-width: 100%;
+    height: auto;
+}
+
+.markdown-description del {
+    text-decoration: line-through;
+}

@@ -6,7 +6,8 @@ import {
     handleUserListCommand,
     handleMaintenanceCommand,
     handleModCommand,
-    handleEventCommand
+    handleEventCommand,
+    handleBackupCommand
 } from './functions.js';
 
 export const command = async (client: Client) => {
@@ -51,6 +52,15 @@ export const command = async (client: Client) => {
             message.content.startsWith('!checkLevel')) {
             await handleEventCommand(message);
             return;
+        } else if (message.content === '!backup') {
+            const isServerOwner = message.guild?.ownerId === message.author.id;
+            const adminRole = message.guild?.roles.cache.find(role => role.name === 'Admin');
+
+            if (isServerOwner || (adminRole && message.member?.roles.cache.has(adminRole.id))) {
+                await handleBackupCommand(message);
+            } else {
+                await message.reply('このコマンドは管理者のみ実行が可能です。');
+            }
         }
 
     })

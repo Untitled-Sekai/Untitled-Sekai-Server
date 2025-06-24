@@ -5,8 +5,10 @@ import { getMaintenanceState, saveMaintenanceState } from './maintenance.js'
 import { EventModel } from '../models/event.js'
 import { LevelModel } from '../models/level.js'
 import { checkLevelExists, listAllLevels } from './debugLevel.js';
+import { createDatabaseBackup, cleanupOldBackups } from '../utils/backup.js';
+import { TextChannel, AttachmentBuilder, PermissionFlagsBits, EmbedBuilder, Message, Client } from 'discord.js';
+import cron from 'node-cron';
 
-import { Message, EmbedBuilder, TextChannel, PermissionFlagsBits } from 'discord.js'
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
@@ -538,4 +540,93 @@ export const handleEventCommand = async (message: Message) => {
         console.error('イベントコマンドエラー:', e);
         await message.reply(`エラー\n\`\`\`${e}\`\`\``);
     }
+}
+// handleBackupCommand関数
+export async function handleBackupCommand(message: Message): Promise<void> {
+  try {
+    await message.reply('データベースのバックアップを開始します...');
+    
+    // バックアップを作成
+    const backupPath = await createDatabaseBackup();
+    
+    // ファイルをDiscordに送信
+    const attachment = new AttachmentBuilder(backupPath);
+    
+    const embed = new EmbedBuilder()
+      .setTitle('データベースバックアップ')
+      .setColor(0x00FF00)
+      .setDescription('データベースのバックアップが完了しました。')
+      .addFields(
+        { name: 'ファイル名', value: path.basename(backupPath) },
+        { name: '日時', value: new Date().toLocaleString('ja-JP') }
+      )
+      .setTimestamp();
+      
+    await message.reply({
+      embeds: [embed],
+      files: [attachment]
+    });
+    
+    // 7日より古いバックアップを削除
+    await cleanupOldBackups(7);
+    
+  } catch (error) {
+    console.error('バックアップコマンドエラー:', error);
+    await message.reply(`バックアップ処理中にエラーが発生しました。\n\`\`\`${error}\`\`\``);
+  }
+}
+
+// 自動バックアップをセットアップする関数
+export function setupAutomaticBackup(client: any): void {
+  // 毎日0:00に実行
+  cron.schedule('0 0 * * *', async () => {
+    try {
+      console.log('自動バックアップを開始します...');
+      
+      // バックアップを作成
+      const backupPath = await createDatabaseBackup();
+      
+      // バックアップチャンネルを特定
+      const backupChannelId = process.env.BACKUP_CHANNEL_ID;
+      if (!backupChannelId) {
+        console.error('環境変数 BACKUP_CHANNEL_ID が設定されていません');
+        return;
+      }
+      
+      const channel = client.channels.cache.get(backupChannelId);
+      if (!channel || !channel.isTextBased()) {
+        console.error(`チャンネル ${backupChannelId} が見つからないか、テキストチャンネルではありません`);
+        return;
+      }
+      
+      // ファイルをDiscordに送信
+      const attachment = new AttachmentBuilder(backupPath);
+      
+      const embed = new EmbedBuilder()
+        .setTitle('自動データベースバックアップ')
+        .setColor(0x00FF00)
+        .setDescription('スケジュールされたデータベースバックアップが完了しました。')
+        .addFields(
+          { name: 'ファイル名', value: path.basename(backupPath) },
+          { name: '日時', value: new Date().toLocaleString('ja-JP') }
+        )
+        .setTimestamp();
+        
+      await channel.send({
+        embeds: [embed],
+        files: [attachment]
+      });
+      
+      // 古いバックアップを削除
+      await cleanupOldBackups(7);
+      
+      console.log('自動バックアップが完了しました。');
+    } catch (error) {
+      console.error('自動バックアップエラー:', error);
+    }
+  }, {
+    timezone: 'Asia/Tokyo' // 日本時間で0:00に実行
+  });
+  
+  console.log('自動バックアップがスケジュールされました。');
 }

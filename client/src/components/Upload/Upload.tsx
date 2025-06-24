@@ -49,6 +49,9 @@ const Upload: React.FC = () => {
     const [selectedId, setSelectedId] = useState<string>('');
     const [showAccountSelector, setShowAccountSelector] = useState(false);
 
+    // マークダウンヘルプの表示状態
+    const [showMarkdownHelp, setShowMarkdownHelp] = useState(false);
+
     // ログインチェックとSonolus認証チェック
     useEffect(() => {
         const checkAuth = async () => {
@@ -272,10 +275,10 @@ const Upload: React.FC = () => {
                 text: SUCCESS_MESSAGE.UPLOAD_SUCCESS.ja
             });
 
-            if (data.chartId) {
+            if (data.name) {
                 setTimeout(() => {
-                    navigate(`/charts/${data.chartId}`);
-                }, 3000);
+                    navigate(`/charts/${data.name}`);
+                }, 10);
             } else {
                 setTimeout(() => {
                     navigate('/charts');
@@ -415,7 +418,33 @@ const Upload: React.FC = () => {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="description">説明</label>
+                                <label htmlFor="description">
+                                  説明 
+                                  <button 
+                                      type="button" 
+                                      className="markdown-help-button"
+                                      onClick={() => setShowMarkdownHelp(!showMarkdownHelp)}
+                                  >
+                                      マークダウン記法のヘルプ
+                                  </button>
+                                </label>
+                                {showMarkdownHelp && (
+                                    <div className="markdown-help-panel">
+                                        <h4>マークダウン記法の使い方</h4>
+                                        <ul>
+                                            <li><code># 見出し1</code> - 大見出し</li>
+                                            <li><code>## 見出し2</code> - 中見出し</li>
+                                            <li><code>### 見出し3</code> - 小見出し</li>
+                                            <li><code>**太字**</code> - <strong>太字</strong></li>
+                                            <li><code>*斜体*</code> - <em>斜体</em></li>
+                                            <li><code>~~取り消し線~~</code> - <del>取り消し線</del></li>
+                                            <li><code>[リンクテキスト](https://example.com)</code> - <a href="#">リンク</a></li>
+                                            <li><code>- リスト項目</code> - 箇条書きリスト</li>
+                                            <li><code>1. 番号付きリスト</code> - 番号付きリスト</li>
+                                            <li>改行は自動で反映されます</li>
+                                        </ul>
+                                    </div>
+                                )}
                                 <textarea
                                     id="description"
                                     value={description}
