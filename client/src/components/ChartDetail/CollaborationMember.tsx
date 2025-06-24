@@ -18,7 +18,7 @@ const CollaborationMember: React.FC<CollaborationMemberProps> = ({ handle }) => 
         const response = await fetch(`/api/users/handle/${handle.toString()}`);
         
         if (!response.ok) {
-          throw new Error('ユーザー情報取れなかった〜');
+          throw new Error('ユーザー情報取れませんでした');
         }
         
         const data = await response.json();

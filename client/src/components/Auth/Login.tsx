@@ -18,7 +18,7 @@ const Login: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   
-  // 言語設定（とりあえず日本語固定にしとくね）
+  // 言語設定
   const lang = 'ja';
 
   const handleLogin = async (e: React.FormEvent) => {

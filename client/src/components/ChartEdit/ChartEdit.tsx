@@ -188,7 +188,7 @@ const ChartEdit = () => {
 
             if (!response.ok) {
                 const errorData = await response.json();
-                throw new Error(errorData.error || '更新に失敗したわ');
+                throw new Error(errorData.error || '更新に失敗');
             }
 
             const result = await response.json();
