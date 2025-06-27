@@ -68,6 +68,7 @@ export type LevelMetadata = {
 
 // メインのレベル型定義
 export interface Level {
+  _id?: string | mongoose.Types.ObjectId;
   name: string;
   rating: number;
   version: number;
@@ -121,7 +122,7 @@ export type ChartDetail = {
   uploadDate: string;
   coverUrl: string;
   description: LangField;
-  tags: TagType[];
+  tags: string[];
   bgmUrl: string;
   dataUrl: string;
   previewUrl: string;

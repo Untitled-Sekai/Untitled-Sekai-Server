@@ -252,8 +252,8 @@ const ChartDetail: React.FC = () => {
                     {chart.tags && chart.tags.length > 0 && (
                         <div className="chart-tags">
                             {chart.tags.map(tag => (
-                                <span key={tag._id || Math.random().toString()} className="tag">
-                                    {tag.title?.ja || tag.title?.en || 'タグ'}
+                                <span key={tag || Math.random().toString()} className="tag">
+                                    {tag}
                                 </span>
                             ))}
                         </div>

@@ -5,6 +5,10 @@ import { RequestHandler } from "express";
 import { UserModel } from "../models/user.js";
 import { verifyToken } from "./middleware/isAuth.js"
 
+const convertTagsToStringArray = (tags: any[]): string[] => {
+    return tags?.map(tag => tag.title?.ja || tag.title?.en).filter(Boolean) || [];
+};
+
 export const getCharts = async () => {
     sonolus.router.get('/api/charts', async (req, res) => {
         try {
@@ -54,13 +58,12 @@ export const getChart_detail = async () => {
     sonolus.router.get('/api/charts/:id', (async (req, res) => {
         try {
             const level = await LevelModel.findOne({ name: req.params.id })
-
             if (!level) {
                 return res.status(404).json({
                     message: MESSAGE.ERROR.NOTFOUND
                 })
             }
-
+            
             const chart_detail = {
                 id: level._id,
                 name: level.name,
@@ -84,7 +87,7 @@ export const getChart_detail = async () => {
                     ja: level.description?.ja,
                     en: level.description?.en
                 },
-                tags: level.tags,
+                tags: convertTagsToStringArray(level.tags),
                 bgmUrl: level.bgm?.url,
                 dataUrl: level.data?.url,
                 previewUrl: level.preview?.url,
