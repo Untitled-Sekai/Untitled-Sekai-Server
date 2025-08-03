@@ -1,1613 +1,87 @@
 {
-  "backgrounds": [
+  "newcharts": [
     {
-      "_id": "6856bc047c1f6e1d8d1657b9",
-      "name": "utsk-background-a405a8f0707ecc7f",
-      "version": 2,
+      "_id": "6856bc0c7c1f6e1d8d1657d3",
+      "name": "utsk-0ebc33d9c1d21eb6",
+      "publishedAt": "2025-06-21T14:05:00.857Z",
       "title": {
         "en": "A Horny Money World ~伝説の夜~",
         "ja": "A Horny Money World ~伝説の夜~"
       },
-      "subtitle": {
-        "en": "A Horny Money World ~伝説の夜~",
-        "ja": "A Horny Money World ~伝説の夜~"
+      "artist": {
+        "en": "歌：宝鐘マリン 作編曲：D.watt (IOSYS)　 作詞：まろん (IOSYS)",
+        "ja": "歌：宝鐘マリン 作編曲：D.watt (IOSYS)　 作詞：まろん (IOSYS)"
       },
       "author": {
         "en": "pim4n#4814",
         "ja": "pim4n#4814"
       },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6856bc047c1f6e1d8d1657ba"
-        }
-      ],
-      "description": {
-        "en": "いぇい",
-        "ja": "いぇい"
-      },
-      "thumbnail": {
-        "hash": "c42755a2-c028-4714-9349-e46078f47717",
-        "url": "/repository/cover/c42755a2-c028-4714-9349-e46078f47717"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "f767420d-a1e8-4dc0-8b26-3dde7ed946e0",
-        "url": "/repository/background/f767420d-a1e8-4dc0-8b26-3dde7ed946e0"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-21T14:04:52.580Z",
+      "rating": 31,
+      "coverUrl": "/repository/cover/c42755a2-c028-4714-9349-e46078f47717",
       "__v": 0
     },
     {
-      "_id": "6857c0f27c1f6e1d8d165a76",
-      "name": "utsk-background-9f11e24b4ad58c44",
-      "version": 2,
-      "title": {
-        "en": "祝福",
-        "ja": "祝福"
-      },
-      "subtitle": {
-        "en": "祝福",
-        "ja": "祝福"
-      },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6857c0f27c1f6e1d8d165a77"
-        }
-      ],
-      "description": {
-        "en": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み",
-        "ja": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み"
-      },
-      "thumbnail": {
-        "hash": "287e918d-0026-4d4b-a679-45f79799c54c",
-        "url": "/repository/cover/287e918d-0026-4d4b-a679-45f79799c54c"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "ad4d4d62-0c77-4ce4-b4c1-cf48c2bfa082",
-        "url": "/repository/background/ad4d4d62-0c77-4ce4-b4c1-cf48c2bfa082"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-22T08:38:10.086Z",
-      "__v": 0
-    },
-    {
-      "_id": "6857c7e57c1f6e1d8d165b0c",
-      "name": "utsk-background-61a666a6dd88e280",
-      "version": 2,
+      "_id": "6857ca107c1f6e1d8d165b7b",
+      "name": "utsk-aedb30745d5c44f8",
+      "publishedAt": "2025-06-22T09:17:04.504Z",
       "title": {
         "en": "ANU",
         "ja": "ANU"
       },
-      "subtitle": {
-        "en": "ANU",
-        "ja": "ANU"
+      "artist": {
+        "en": "sasakure.UK vs 穴山大輔",
+        "ja": "sasakure.UK vs 穴山大輔"
       },
       "author": {
         "en": "uni01#184075",
         "ja": "uni01#184075"
       },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6857c7e57c1f6e1d8d165b0d"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "f921f1ba-5956-48ce-ba34-edf74be5f212",
-        "url": "/repository/cover/f921f1ba-5956-48ce-ba34-edf74be5f212"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "a32b57f9-d6b5-44d8-933d-9f202febc7c9",
-        "url": "/repository/background/a32b57f9-d6b5-44d8-933d-9f202febc7c9"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-22T09:07:49.789Z",
+      "rating": 37,
+      "coverUrl": "/repository/cover/f921f1ba-5956-48ce-ba34-edf74be5f212",
       "__v": 0
     },
     {
-      "_id": "6857cae37c1f6e1d8d165bda",
-      "name": "utsk-background-c5f149e982c3f3e5",
-      "version": 2,
+      "_id": "6857caa97c1f6e1d8d165bc9",
+      "name": "utsk-0cfb61a36a138e6b",
+      "publishedAt": "2025-06-22T09:19:37.462Z",
+      "title": {
+        "en": "祝福",
+        "ja": "祝福"
+      },
+      "artist": {
+        "en": "ikura",
+        "ja": "ikura"
+      },
+      "author": {
+        "en": "waaisandesu#249866",
+        "ja": "waaisandesu#249866"
+      },
+      "rating": 30,
+      "coverUrl": "/repository/cover/287e918d-0026-4d4b-a679-45f79799c54c",
+      "__v": 0
+    },
+    {
+      "_id": "6857cae97c1f6e1d8d165bf4",
+      "name": "utsk-d303a8c6af4a6f03",
+      "publishedAt": "2025-06-22T09:20:41.625Z",
       "title": {
         "en": "Opfer",
         "ja": "Opfer"
       },
-      "subtitle": {
-        "en": "Opfer",
-        "ja": "Opfer"
+      "artist": {
+        "en": "かねこちはる",
+        "ja": "かねこちはる"
       },
       "author": {
         "en": "uni01#184075",
         "ja": "uni01#184075"
       },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6857cae37c1f6e1d8d165bdb"
-        }
-      ],
-      "description": {
-        "en": "24分の鍵盤",
-        "ja": "24分の鍵盤"
-      },
-      "thumbnail": {
-        "hash": "6615e53d-51b0-4ab1-940b-b4d0c63844c3",
-        "url": "/repository/cover/6615e53d-51b0-4ab1-940b-b4d0c63844c3"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "db1029fd-4423-4ef0-afd4-85eeb3a043c0",
-        "url": "/repository/background/db1029fd-4423-4ef0-afd4-85eeb3a043c0"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-22T09:20:35.969Z",
-      "__v": 0
-    },
-    {
-      "_id": "685e5092578023ecd1d365b5",
-      "name": "utsk-background-47362b67a6da653e",
-      "version": 2,
-      "title": {
-        "en": "m",
-        "ja": "m"
-      },
-      "subtitle": {
-        "en": "m",
-        "ja": "m"
-      },
-      "author": {
-        "en": "uni01#184075",
-        "ja": "uni01#184075"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "685e5092578023ecd1d365b6"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "fc473443-10b4-4047-83fb-5fab0fd535cd",
-        "url": "/repository/cover/fc473443-10b4-4047-83fb-5fab0fd535cd"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "70092009-8938-44a9-bcbe-7ea44b913a29",
-        "url": "/repository/background/70092009-8938-44a9-bcbe-7ea44b913a29"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-27T08:04:34.338Z",
-      "__v": 0
-    },
-    {
-      "_id": "685f7567fcc694e8df3a6e00",
-      "name": "utsk-background-5f3fcb5dced1472f",
-      "version": 2,
-      "title": {
-        "en": "驚異の魔法",
-        "ja": "驚異の魔法"
-      },
-      "subtitle": {
-        "en": "驚異の魔法",
-        "ja": "驚異の魔法"
-      },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "685f7567fcc694e8df3a6e01"
-        }
-      ],
-      "description": {
-        "en": "第4回譜面評価試験参加譜面\r\nテーマ「片手を固定させる配置」\r\n\r\nCOMBO:1596\r\nBPM:140\r\nLevel:32.6\r\nAPチェック済み\r\n[本家様](https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a) - https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a",
-        "ja": "第4回譜面評価試験参加譜面\r\nテーマ「片手を固定させる配置」\r\n\r\nCOMBO:1596\r\nBPM:140\r\nLevel:32.6\r\nAPチェック済み\r\n[本家様](https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a) - https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a"
-      },
-      "thumbnail": {
-        "hash": "f1e563d5-ec96-4525-941a-675dd7f4d361",
-        "url": "/repository/cover/f1e563d5-ec96-4525-941a-675dd7f4d361"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "dda21ad8-b6b7-47be-836a-682128757752",
-        "url": "/repository/background/dda21ad8-b6b7-47be-836a-682128757752"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-28T04:53:59.852Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860129bfcc694e8df3a6f3b",
-      "name": "utsk-background-b3c19554108e981d",
-      "version": 2,
-      "title": {
-        "en": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】",
-        "ja": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】"
-      },
-      "subtitle": {
-        "en": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】",
-        "ja": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】"
-      },
-      "author": {
-        "en": "TootieJin#a0001",
-        "ja": "TootieJin#a0001"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6860129bfcc694e8df3a6f3c"
-        }
-      ],
-      "description": {
-        "en": "Full video: [https://youtu.be/BHVNuwxA1ek](https://youtu.be/BHVNuwxA1ek)\r\nETERNAL **Lv.APD32**\r\n\r\n*ETERNAL difficulty can also be a multi-finger chart.",
-        "ja": "Full video: [https://youtu.be/BHVNuwxA1ek](https://youtu.be/BHVNuwxA1ek)\r\nETERNAL **Lv.APD32**\r\n\r\n*ETERNAL difficulty can also be a multi-finger chart."
-      },
-      "thumbnail": {
-        "hash": "741a299c-d348-4268-b403-45b4f5beea12",
-        "url": "/repository/cover/741a299c-d348-4268-b403-45b4f5beea12"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "a120b0d4-6e7a-46b4-8884-a17eeffa3ae0",
-        "url": "/repository/background/a120b0d4-6e7a-46b4-8884-a17eeffa3ae0"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-28T16:04:43.959Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860a5e5fcc694e8df3a7053",
-      "name": "utsk-background-de3bbccb7e049528",
-      "version": 2,
-      "title": {
-        "en": "AIR",
-        "ja": "AIR"
-      },
-      "subtitle": {
-        "en": "AIR",
-        "ja": "AIR"
-      },
-      "author": {
-        "en": "uni01#184075",
-        "ja": "uni01#184075"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6860a5e5fcc694e8df3a7054"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "f5c2f6b4-fc84-4b1d-8488-2d66e572b829",
-        "url": "/repository/cover/f5c2f6b4-fc84-4b1d-8488-2d66e572b829"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "085c5324-8394-4876-b2a9-d671e64d28a3",
-        "url": "/repository/background/085c5324-8394-4876-b2a9-d671e64d28a3"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-29T02:33:09.259Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860b847fcc694e8df3a716a",
-      "name": "utsk-background-f6a88db63cfa5d80",
-      "version": 2,
-      "title": {
-        "en": "【Ver_2.0】ハローセカイ / Sekai.Ver",
-        "ja": "【Ver_2.0】ハローセカイ / Sekai.Ver"
-      },
-      "subtitle": {
-        "en": "【Ver_2.0】ハローセカイ / Sekai.Ver",
-        "ja": "【Ver_2.0】ハローセカイ / Sekai.Ver"
-      },
-      "author": {
-        "en": "YuaSR25#437087",
-        "ja": "YuaSR25#437087"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6860b847fcc694e8df3a716b"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "73ddb136-6910-44c6-b4be-0781be58e1b4",
-        "url": "/repository/cover/73ddb136-6910-44c6-b4be-0781be58e1b4"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "fcc27d9f-9c77-4054-b441-376c1124f866",
-        "url": "/repository/background/fcc27d9f-9c77-4054-b441-376c1124f866"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-06-29T03:51:35.750Z",
-      "__v": 0
-    },
-    {
-      "_id": "6867d743508894cc0f336214",
-      "name": "utsk-background-e1e36cc8e40b80af",
-      "version": 2,
-      "title": {
-        "en": "Stardust：RAY",
-        "ja": "Stardust：RAY"
-      },
-      "subtitle": {
-        "en": "Stardust：RAY",
-        "ja": "Stardust：RAY"
-      },
-      "author": {
-        "en": "ZunK417#346737",
-        "ja": "ZunK417#346737"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6867d743508894cc0f336215"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "9f28adee-9bfb-4fc2-bb12-b4a3c73c1e2f",
-        "url": "/repository/cover/9f28adee-9bfb-4fc2-bb12-b4a3c73c1e2f"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "6e768a7c-c0eb-4c37-b74a-3d35bed03a54",
-        "url": "/repository/background/6e768a7c-c0eb-4c37-b74a-3d35bed03a54"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-04T13:29:39.591Z",
-      "__v": 0
-    },
-    {
-      "_id": "6870eb2018cc28ca6773b07d",
-      "name": "utsk-background-56fab932babb3312",
-      "version": 2,
-      "title": {
-        "en": "桜爛ロマンシア",
-        "ja": "桜爛ロマンシア"
-      },
-      "subtitle": {
-        "en": "桜爛ロマンシア",
-        "ja": "桜爛ロマンシア"
-      },
-      "author": {
-        "en": "pim4n#4814",
-        "ja": "pim4n#4814"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6870eb2018cc28ca6773b07e"
-        }
-      ],
-      "description": {
-        "en": "CCに上げてたものの作り直し\r\n\r\n後半グダグダになったけど頑張って作りました",
-        "ja": "CCに上げてたものの作り直し\r\n\r\n後半グダグダになったけど頑張って作りました"
-      },
-      "thumbnail": {
-        "hash": "aa2d68e5-14e3-4be2-958b-46e31d767553",
-        "url": "/repository/cover/aa2d68e5-14e3-4be2-958b-46e31d767553"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "a816baad-e172-4929-8975-d2f759829a43",
-        "url": "/repository/background/a816baad-e172-4929-8975-d2f759829a43"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-11T10:44:48.771Z",
-      "__v": 0
-    },
-    {
-      "_id": "68712bf718cc28ca6773b133",
-      "name": "utsk-background-6ae60f7a5973977c",
-      "version": 2,
-      "title": {
-        "en": "a",
-        "ja": "a"
-      },
-      "subtitle": {
-        "en": "a",
-        "ja": "a"
-      },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "68712bf718cc28ca6773b134"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "5d44be05-77c2-4ea6-890a-a9d94689919e",
-        "url": "/repository/cover/5d44be05-77c2-4ea6-890a-a9d94689919e"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "e9bafc74-dc8b-4553-8042-f3ada3385eee",
-        "url": "/repository/background/e9bafc74-dc8b-4553-8042-f3ada3385eee"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-11T15:21:27.770Z",
-      "__v": 0
-    },
-    {
-      "_id": "68731e4518cc28ca6773b592",
-      "name": "utsk-background-59829bd789490800",
-      "version": 2,
-      "title": {
-        "en": " ",
-        "ja": " "
-      },
-      "subtitle": {
-        "en": " ",
-        "ja": " "
-      },
-      "author": {
-        "en": "めでたい#5999",
-        "ja": "めでたい#5999"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "68731e4518cc28ca6773b593"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "db24802f-76e6-4770-91d8-29fb2b61d305",
-        "url": "/repository/cover/db24802f-76e6-4770-91d8-29fb2b61d305"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "0b20fe34-b673-4001-a97f-d9b40eaf3102",
-        "url": "/repository/background/0b20fe34-b673-4001-a97f-d9b40eaf3102"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-13T02:47:33.851Z",
-      "__v": 0
-    },
-    {
-      "_id": "68735ddc18cc28ca6773b92c",
-      "name": "utsk-background-6fc45a13401c0eeb",
-      "version": 2,
-      "title": {
-        "en": "SnowMix♪",
-        "ja": "SnowMix♪"
-      },
-      "subtitle": {
-        "en": "SnowMix♪",
-        "ja": "SnowMix♪"
-      },
-      "author": {
-        "en": "まてぃ#18457",
-        "ja": "まてぃ#18457"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "68735ddc18cc28ca6773b92d"
-        }
-      ],
-      "description": {
-        "en": "譜面定数 32.5\r\nノーツ数 1983\r\n全体 BPM 185",
-        "ja": "譜面定数 32.5\r\nノーツ数 1983\r\n全体 BPM 185"
-      },
-      "thumbnail": {
-        "hash": "5f3a1a08-cc03-4cee-b01f-dbe92aab385e",
-        "url": "/repository/cover/5f3a1a08-cc03-4cee-b01f-dbe92aab385e"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "1d21f0de-3b17-4d3f-aa30-5b7c6202b4b4",
-        "url": "/repository/background/1d21f0de-3b17-4d3f-aa30-5b7c6202b4b4"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-13T07:18:52.326Z",
-      "__v": 0
-    },
-    {
-      "_id": "6873b84318cc28ca6773b96f",
-      "name": "utsk-background-c9f62385190ba7b4",
-      "version": 2,
-      "title": {
-        "en": "a",
-        "ja": "a"
-      },
-      "subtitle": {
-        "en": "a",
-        "ja": "a"
-      },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6873b84318cc28ca6773b970"
-        }
-      ],
-      "description": {
-        "en": "a",
-        "ja": "a"
-      },
-      "thumbnail": {
-        "hash": "08a99a7a-389d-4fd5-a795-dc68194c7064",
-        "url": "/repository/cover/08a99a7a-389d-4fd5-a795-dc68194c7064"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "fbfa4403-75e3-4436-9942-f840a111b715",
-        "url": "/repository/background/fbfa4403-75e3-4436-9942-f840a111b715"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-13T13:44:35.493Z",
-      "__v": 0
-    },
-    {
-      "_id": "6878664798f3acaa6256e438",
-      "name": "utsk-background-50d09b2a8508241a",
-      "version": 2,
-      "title": {
-        "en": "Jellyous",
-        "ja": "Jellyous"
-      },
-      "subtitle": {
-        "en": "Jellyous",
-        "ja": "Jellyous"
-      },
-      "author": {
-        "en": "TsukuPG#458996",
-        "ja": "TsukuPG#458996"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6878664798f3acaa6256e439"
-        }
-      ],
-      "description": {
-        "en": "MASTER - LV. 29",
-        "ja": "MASTER - LV. 29"
-      },
-      "thumbnail": {
-        "hash": "007afd93-7688-4277-bf8d-fced1600e995",
-        "url": "/repository/cover/007afd93-7688-4277-bf8d-fced1600e995"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "e05bb750-fb52-483d-9f54-8cc78f1ae7ca",
-        "url": "/repository/background/e05bb750-fb52-483d-9f54-8cc78f1ae7ca"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-17T02:56:07.177Z",
-      "__v": 0
-    },
-    {
-      "_id": "687b34f555ae5b439d484969",
-      "name": "utsk-background-f23b0f5c0c41d010",
-      "version": 2,
-      "title": {
-        "en": "モンダイナイトリッパー！",
-        "ja": "モンダイナイトリッパー！"
-      },
-      "subtitle": {
-        "en": "モンダイナイトリッパー！",
-        "ja": "モンダイナイトリッパー！"
-      },
-      "author": {
-        "en": "Highlight159#14501",
-        "ja": "Highlight159#14501"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "687b34f555ae5b439d48496a"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "81efcee2-5d4e-4737-bee1-73d91acef582",
-        "url": "/repository/cover/81efcee2-5d4e-4737-bee1-73d91acef582"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "421e4d3a-6df8-410c-a190-3b26e7667818",
-        "url": "/repository/background/421e4d3a-6df8-410c-a190-3b26e7667818"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-19T06:02:29.945Z",
-      "__v": 0
-    },
-    {
-      "_id": "687b411655ae5b439d484a17",
-      "name": "utsk-background-dd657afd39cc07dc",
-      "version": 2,
-      "title": {
-        "en": "KINGWORLD",
-        "ja": "KINGWORLD"
-      },
-      "subtitle": {
-        "en": "KINGWORLD",
-        "ja": "KINGWORLD"
-      },
-      "author": {
-        "en": "ハイライト#14501",
-        "ja": "ハイライト#14501"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "687b411655ae5b439d484a18"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "9baa0609-62d8-4612-9e86-5a51cf43dc05",
-        "url": "/repository/cover/9baa0609-62d8-4612-9e86-5a51cf43dc05"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "098f70f9-3d95-43bb-8401-e2e08c002b51",
-        "url": "/repository/background/098f70f9-3d95-43bb-8401-e2e08c002b51"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-19T06:54:14.640Z",
-      "__v": 0
-    },
-    {
-      "_id": "687ef954eb194f49b61470b0",
-      "name": "utsk-background-210163ad29534c22",
-      "version": 2,
-      "title": {
-        "en": "test",
-        "ja": "test"
-      },
-      "subtitle": {
-        "en": "test",
-        "ja": "test"
-      },
-      "author": {
-        "en": "pim4n#4814",
-        "ja": "pim4n#4814"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "687ef954eb194f49b61470b1"
-        }
-      ],
-      "description": {
-        "en": "test",
-        "ja": "test"
-      },
-      "thumbnail": {
-        "hash": "e49b99b4-d47d-44db-b84a-89a309523913",
-        "url": "/repository/cover/e49b99b4-d47d-44db-b84a-89a309523913"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "5b7947ce-24a9-4483-90a4-9b6765bf500a",
-        "url": "/repository/background/5b7947ce-24a9-4483-90a4-9b6765bf500a"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-22T02:37:08.092Z",
-      "__v": 0
-    },
-    {
-      "_id": "6880fbb3eb194f49b6147bf2",
-      "name": "utsk-background-1366e86e7fe0f94d",
-      "version": 2,
-      "title": {
-        "en": "Moonflutter",
-        "ja": "Moonflutter"
-      },
-      "subtitle": {
-        "en": "Moonflutter",
-        "ja": "Moonflutter"
-      },
-      "author": {
-        "en": "Kameng585#527916",
-        "ja": "Kameng585#527916"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "6880fbb3eb194f49b6147bf3"
-        }
-      ],
-      "description": {
-        "en": "BPM174\r\nChart Cyanvasにも投稿",
-        "ja": "BPM174\r\nChart Cyanvasにも投稿"
-      },
-      "thumbnail": {
-        "hash": "1c9584e4-7245-49da-a770-d2133bc28c6e",
-        "url": "/repository/cover/1c9584e4-7245-49da-a770-d2133bc28c6e"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "a0cea97a-9897-43f9-8768-5e58ab7fa9be",
-        "url": "/repository/background/a0cea97a-9897-43f9-8768-5e58ab7fa9be"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-23T15:11:47.583Z",
-      "__v": 0
-    },
-    {
-      "_id": "68823e2beb194f49b6148236",
-      "name": "utsk-background-c68b6e7f13585ca4",
-      "version": 2,
-      "title": {
-        "en": "僕らの星座",
-        "ja": "僕らの星座"
-      },
-      "subtitle": {
-        "en": "僕らの星座",
-        "ja": "僕らの星座"
-      },
-      "author": {
-        "en": "pim4n#4814",
-        "ja": "pim4n#4814"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "background",
-            "ja": "background"
-          },
-          "_id": "68823e2beb194f49b6148237"
-        }
-      ],
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "thumbnail": {
-        "hash": "3fdf9179-0bb3-4817-b1b7-5a560a597371",
-        "url": "/repository/cover/3fdf9179-0bb3-4817-b1b7-5a560a597371"
-      },
-      "data": {
-        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-        "url": "/repository/background/v3_data.json.gz"
-      },
-      "image": {
-        "hash": "7b37b6b5-f578-4df9-8573-e44fdceef875",
-        "url": "/repository/background/7b37b6b5-f578-4df9-8573-e44fdceef875"
-      },
-      "configuration": {
-        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-        "url": "/repository/background/configuration.json.gz"
-      },
-      "createdAt": "2025-07-24T14:07:39.058Z",
+      "rating": 34,
+      "coverUrl": "/repository/cover/6615e53d-51b0-4ab1-940b-b4d0c63844c3",
       "__v": 0
     }
   ],
   "webhooks": [],
-  "events": [],
-  "users": [
-    {
-      "_id": "6859dc7a59629c0ab0e3a8dd",
-      "username": "newuser",
-      "password": "$2b$10$TeRrofos88hO4hHQSyFzzuOtJsF0SGAd6DwgXawFos7ZGrwOhm/zy",
-      "userNumber": 663713,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-23T23:00:10.157Z",
-      "updatedAt": "2025-06-23T23:00:10.157Z",
-      "__v": 0
-    },
-    {
-      "_id": "6859de05d1f392ef9a69e329",
-      "username": "uni01",
-      "password": "$2b$10$BFaD0RAQkfP/TCscJ64/sORd3yOL81pQoIBYhSMP90JzJBir/mLl6",
-      "userNumber": 795507,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-21T00:04:01.287Z",
-      "updatedAt": "2025-06-21T00:04:37.674Z",
-      "__v": 0,
-      "lastTokenInvalidation": "2025-06-23T14:43:24.840Z"
-    },
-    {
-      "_id": "6859de05d1f392ef9a69e32a",
-      "username": "pim4n",
-      "password": "$2b$10$TTNFOIi7RF4BVJ6jXEtmsOILswzu0.rizpNabKeVhR4OoAIMgzbae",
-      "userNumber": 136394,
-      "sonolusAuthenticated": false,
-      "role": "admin",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [
-        "utsk-aedb30745d5c44f8",
-        "utsk-0cfb61a36a138e6b"
-      ],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-21T04:17:01.526Z",
-      "updatedAt": "2025-07-13T02:48:22.814Z",
-      "__v": 2,
-      "lastTokenInvalidation": "2025-06-23T14:43:24.840Z"
-    },
-    {
-      "_id": "6859de05d1f392ef9a69e32b",
-      "username": "testuser",
-      "password": "$2b$10$ewpi7rp8nzqm8f6dK3OuZ.iHpM0O4E0ScFJkXkCOxOoIypxziQbe.",
-      "userNumber": 634323,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-21T04:17:16.450Z",
-      "updatedAt": "2025-06-21T04:17:16.450Z",
-      "__v": 0,
-      "lastTokenInvalidation": "2025-06-23T14:43:24.840Z"
-    },
-    {
-      "_id": "6859de05d1f392ef9a69e32c",
-      "username": "wamom",
-      "password": "$2b$10$TTTxWEr.ZIsxrrswI3eIwOL7BPOEemFC.8pUD5LHlqynlxIA7fsca",
-      "userNumber": 263324,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-21T04:32:09.078Z",
-      "updatedAt": "2025-06-21T04:32:09.078Z",
-      "__v": 0,
-      "lastTokenInvalidation": "2025-06-23T14:43:24.840Z"
-    },
-    {
-      "_id": "6859de05d1f392ef9a69e32d",
-      "username": "unisub",
-      "password": "$2b$10$cHIu9SeL4jx5ivX8qkaS8u0pdbH20y6pCKIp4oKepXQR9xyI5PZ8S",
-      "userNumber": 706971,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-21T13:58:09.565Z",
-      "updatedAt": "2025-06-21T13:58:09.565Z",
-      "__v": 0,
-      "lastTokenInvalidation": "2025-06-23T14:43:24.840Z"
-    },
-    {
-      "_id": "6859de05d1f392ef9a69e32e",
-      "username": "waaisandesu",
-      "password": "$2b$10$znjVOdKGLKeorcok60Evbu7n87mJzuX2l1p3Nxf2WEq6FICV2SmQu",
-      "userNumber": 652831,
-      "sonolusAuthenticated": false,
-      "role": "moderator",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [
-        "utsk-0ebc33d9c1d21eb6"
-      ],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-22T06:08:29.348Z",
-      "updatedAt": "2025-06-26T08:02:44.837Z",
-      "__v": 3,
-      "lastTokenInvalidation": "2025-06-23T14:43:24.840Z"
-    },
-    {
-      "_id": "685d39ee578023ecd1d3626f",
-      "username": "TootieJin",
-      "password": "$2b$10$a3kqJqg./.X6ofupt30lEuGg7S//nVT.qpMcnjt3O5PftujplV6OK",
-      "userNumber": 354826,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [
-        {
-          "name": "x",
-          "id": "#a0001",
-          "createdAt": "2025-06-26T12:19:41.156Z",
-          "_id": "685d3add578023ecd1d362ba"
-        }
-      ],
-      "createdAt": "2025-06-26T12:15:42.582Z",
-      "updatedAt": "2025-06-26T12:19:41.158Z",
-      "__v": 1
-    },
-    {
-      "_id": "685d61f9578023ecd1d3641c",
-      "username": "Hellcart",
-      "password": "$2b$10$sQ8Gn4OIFhtZGcdOOEI.au8blEZYbKLS5fq95hkefLK/lvYa1fTha",
-      "userNumber": 640531,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-26T15:06:33.747Z",
-      "updatedAt": "2025-06-26T15:10:23.944Z",
-      "__v": 0
-    },
-    {
-      "_id": "685ebbd2fcc694e8df3a6d3d",
-      "username": "sevenc_nanashi",
-      "password": "$2b$10$/YbmR1dSDs2L1KPpctBi3.55tFjtV7yIir8c.ZW1yGEa/TQoOvY3O",
-      "userNumber": 696241,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-27T15:42:10.039Z",
-      "updatedAt": "2025-06-27T15:42:35.763Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860b709fcc694e8df3a7142",
-      "username": "YuaSR25",
-      "password": "$2b$10$7RQlb/Tqs.To47hKZNUC7uitwnog94BhVWUVQtrxVfLVyfEq/99Di",
-      "userNumber": 720250,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-29T03:46:17.501Z",
-      "updatedAt": "2025-06-29T03:48:40.827Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860ede8fcc694e8df3a725d",
-      "username": "vewaxio",
-      "password": "$2b$10$3w23WKMsx.vs9XaY3vSpl.rUNTx.JBWCLnD.94T4izPCPadCL2BM6",
-      "userNumber": 617204,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-29T07:40:24.168Z",
-      "updatedAt": "2025-06-29T07:42:15.042Z",
-      "__v": 0
-    },
-    {
-      "_id": "68621460fcc694e8df3a7807",
-      "username": "halkun19",
-      "password": "$2b$10$aUEzeS2b/WvsKYKOAFoU3.dEMvyGSfII.ogZw2/WxRXHR8s.MMShu",
-      "userNumber": 938757,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-06-30T04:36:48.604Z",
-      "updatedAt": "2025-06-30T04:36:48.604Z",
-      "__v": 0
-    },
-    {
-      "_id": "68636cd1fcc694e8df3a7a17",
-      "username": "Test",
-      "password": "$2b$10$4Ns8HkRpfdK00rJmkWpF2uYHXtVVm1EGUahkTBfeG6Qsze6OxdBem",
-      "userNumber": 429312,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-01T05:06:25.122Z",
-      "updatedAt": "2025-07-01T06:12:00.977Z",
-      "__v": 0
-    },
-    {
-      "_id": "6864443608f5c70f50fdf7b4",
-      "username": "Highlight159",
-      "password": "$2b$10$k8dYtEvEYFCxI3U3N/KC7.5qK7w1K2MT/XioR4sBr00DUaSddf1cm",
-      "userNumber": 513940,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-01T20:25:26.714Z",
-      "updatedAt": "2025-07-19T05:58:29.181Z",
-      "__v": 0
-    },
-    {
-      "_id": "6867d588508894cc0f3361dd",
-      "username": "Zunk417",
-      "password": "$2b$10$ROIbY8PbZ2c3HCWy2NesLeqRlFzfbNQL2hNiLG2AS5jSWH8IA.1xa",
-      "userNumber": 881253,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-04T13:22:16.064Z",
-      "updatedAt": "2025-07-04T13:22:16.064Z",
-      "__v": 0
-    },
-    {
-      "_id": "6867d5bd508894cc0f3361e5",
-      "username": "ZunK417",
-      "password": "$2b$10$ZJSSfPlcT772ThduUfVoPOhSqRoMkSkbD6M7cMeSqrFxzc3QwrbfW",
-      "userNumber": 640192,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-04T13:23:09.569Z",
-      "updatedAt": "2025-07-04T13:24:51.636Z",
-      "__v": 0
-    },
-    {
-      "_id": "6872260518cc28ca6773b2ca",
-      "username": "めでたい",
-      "password": "$2b$10$qrfY/bwY8OEyopDq.VdGnOHXtrIPK3eOBcvmy4dn2skjcRvWHQ39e",
-      "userNumber": 388414,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [
-        "utsk-d303a8c6af4a6f03",
-        "utsk-d2f4d4a9f56c3215",
-        "utsk-0cfb61a36a138e6b",
-        "utsk-54e8d8ec9aef5ffb"
-      ],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-12T09:08:21.647Z",
-      "updatedAt": "2025-07-13T02:58:00.257Z",
-      "__v": 30
-    },
-    {
-      "_id": "68735c0518cc28ca6773b8ce",
-      "username": "まてぃ",
-      "password": "$2b$10$aMEGrlbDJO7swSQs63gUKO.LY2o.DFDrWkAhiEzhCODHxVyM8cwqe",
-      "userNumber": 191627,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-13T07:11:01.053Z",
-      "updatedAt": "2025-07-13T07:11:32.704Z",
-      "__v": 0
-    },
-    {
-      "_id": "6878569498f3acaa6256e3a1",
-      "username": "TsukuPG",
-      "password": "$2b$10$r6jKdW6f1YYWXYW05dO1JOpQa2FS6s1G.00b/HQ4SltDrhbNqQyOO",
-      "userNumber": 519600,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-17T01:49:08.881Z",
-      "updatedAt": "2025-07-17T01:50:33.660Z",
-      "__v": 0
-    },
-    {
-      "_id": "6879eadc55ae5b439d4840e8",
-      "username": "coniro",
-      "password": "$2b$10$LDZ.9E36LpfquGzSHX/waeZLpvI.WJ5hsx6KpktqS5Cslw7YdOSxG",
-      "userNumber": 724739,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-18T06:34:04.135Z",
-      "updatedAt": "2025-07-18T06:34:04.135Z",
-      "__v": 0
-    },
-    {
-      "_id": "6880ec05eb194f49b6147b19",
-      "username": "Kameng585",
-      "password": "$2b$10$pn/IdKLeujOcSEEFzr3M4e0.Bgo9MPhGj0HruyTdva5NH/.Sag/T.",
-      "userNumber": 940260,
-      "sonolusAuthenticated": false,
-      "role": "user",
-      "profile": {
-        "iconColor": "#6366f1",
-        "description": ""
-      },
-      "following": [],
-      "followers": [],
-      "timeoutUntil": null,
-      "timeoutReason": null,
-      "isBanned": false,
-      "banReason": null,
-      "bannedBy": null,
-      "banDate": null,
-      "likedCharts": [],
-      "sonolusAuth": false,
-      "anonymousaccount": [],
-      "createdAt": "2025-07-23T14:04:53.911Z",
-      "updatedAt": "2025-07-23T14:06:00.493Z",
-      "__v": 0
-    }
-  ],
   "levels": [
     {
       "_id": "6856bc047c1f6e1d8d1657b4",
@@ -1645,8 +119,8 @@
       ],
       "engine": "pjsekai",
       "description": {
-        "en": "　",
-        "ja": "　"
+        "en": "いぇい",
+        "ja": "いぇい"
       },
       "useBackground": {
         "useDefault": false,
@@ -1782,8 +256,8 @@
       ],
       "engine": "pjsekai",
       "description": {
-        "en": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み\r\n[本家様１](https://youtu.be/3eytpBOkOFA?si=6d8AmqbKjJT3UtJM) - https://youtu.be/3eytpBOkOFA?si=6d8AmqbKjJT3UtJM\r\n[本家様２](https://youtu.be/aU8ruUe7UlE?si=YwpWoYGg8-NKsuiD) - https://youtu.be/aU8ruUe7UlE?si=YwpWoYGg8-NKsuiD",
-        "ja": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み\r\n[本家様１](https://youtu.be/3eytpBOkOFA?si=6d8AmqbKjJT3UtJM) - https://youtu.be/3eytpBOkOFA?si=6d8AmqbKjJT3UtJM\r\n[本家様２](https://youtu.be/aU8ruUe7UlE?si=YwpWoYGg8-NKsuiD) - https://youtu.be/aU8ruUe7UlE?si=YwpWoYGg8-NKsuiD"
+        "en": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み",
+        "ja": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み"
       },
       "useBackground": {
         "useDefault": false,
@@ -2128,8 +602,8 @@
         "url": "/repository/preview/51990fcd-55c6-41a9-8cf3-f9136849bdf2"
       },
       "data": {
-        "hash": "e51aa8c1-785c-49a5-8dcf-391d77859b03",
-        "url": "/repository/level/e51aa8c1-785c-49a5-8dcf-391d77859b03"
+        "hash": "8f46865f-18d4-4fe3-a6be-1386ad0c22c0",
+        "url": "/repository/level/8f46865f-18d4-4fe3-a6be-1386ad0c22c0"
       },
       "meta": {
         "isPublic": true,
@@ -2154,2239 +628,387 @@
       },
       "createdAt": "2025-06-22T09:20:35.930Z",
       "__v": 0
-    },
-    {
-      "_id": "685e5092578023ecd1d365af",
-      "name": "utsk-ce58850254a7c0dd",
-      "rating": 37,
-      "version": 1,
-      "title": {
-        "en": "マシンガンポエムドール",
-        "ja": "マシンガンポエムドール"
-      },
-      "artists": {
-        "en": "cosMo@暴走P",
-        "ja": "cosMo@暴走P"
-      },
-      "author": {
-        "en": "uni01#184075",
-        "ja": "uni01#184075"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "APPEND",
-            "ja": "APPEND"
-          },
-          "_id": "685e5092578023ecd1d365b0"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "685e5092578023ecd1d365b1"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "諸君の\r\n指を\r\n粉々に\r\n粉砕するぞっ！",
-        "ja": "諸君の\r\n指を\r\n粉々に\r\n粉砕するぞっ！"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-47362b67a6da653e",
-          "version": 2,
-          "title": {
-            "en": "m",
-            "ja": "m"
-          },
-          "subtitle": {
-            "en": "m",
-            "ja": "m"
-          },
-          "author": {
-            "en": "uni01#184075",
-            "ja": "uni01#184075"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "685e5092578023ecd1d365b2"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "fc473443-10b4-4047-83fb-5fab0fd535cd",
-            "url": "/repository/cover/fc473443-10b4-4047-83fb-5fab0fd535cd"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "70092009-8938-44a9-bcbe-7ea44b913a29",
-            "url": "/repository/background/70092009-8938-44a9-bcbe-7ea44b913a29"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "fc473443-10b4-4047-83fb-5fab0fd535cd",
-        "url": "/repository/cover/fc473443-10b4-4047-83fb-5fab0fd535cd"
-      },
-      "bgm": {
-        "hash": "1638dab1-71c6-4b57-aae8-a536dc98dd23",
-        "url": "/repository/bgm/1638dab1-71c6-4b57-aae8-a536dc98dd23"
-      },
-      "preview": {
-        "hash": "9dca4118-6807-4188-be76-3162a59e411f",
-        "url": "/repository/preview/9dca4118-6807-4188-be76-3162a59e411f"
-      },
-      "data": {
-        "hash": "d447dccc-08ab-43f6-9b26-12c6b5271652",
-        "url": "/repository/level/d447dccc-08ab-43f6-9b26-12c6b5271652"
-      },
-      "meta": {
-        "isPublic": true,
-        "wasPublicBefore": true,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": true,
-          "users": [
-            {
-              "handle": 567378,
-              "_id": "6876575c98f3acaa6256e289"
-            }
-          ]
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-06-27T08:04:34.300Z",
-      "__v": 0
-    },
-    {
-      "_id": "685f7567fcc694e8df3a6dfb",
-      "name": "utsk-54e8d8ec9aef5ffb",
-      "rating": 32,
-      "version": 1,
-      "title": {
-        "en": "驚異の魔法",
-        "ja": "驚異の魔法"
-      },
-      "artists": {
-        "en": "いよわ feat.長瀬有花",
-        "ja": "いよわ feat.長瀬有花"
-      },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "APPEND",
-            "ja": "APPEND"
-          },
-          "_id": "685f7567fcc694e8df3a6dfc"
-        },
-        {
-          "title": {
-            "en": "1",
-            "ja": "1"
-          },
-          "icon": "heart",
-          "_id": "685f7567fcc694e8df3a6dfd"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "第4回譜面評価試験参加譜面\r\nテーマ「片手を固定させる配置」\r\n\r\nCOMBO:1596\r\nBPM:140\r\nLevel:32.6\r\nAPチェック済み\r\n[本家様](https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a) - https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a",
-        "ja": "第4回譜面評価試験参加譜面\r\nテーマ「片手を固定させる配置」\r\n\r\nCOMBO:1596\r\nBPM:140\r\nLevel:32.6\r\nAPチェック済み\r\n[本家様](https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a) - https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-5f3fcb5dced1472f",
-          "version": 2,
-          "title": {
-            "en": "驚異の魔法",
-            "ja": "驚異の魔法"
-          },
-          "subtitle": {
-            "en": "驚異の魔法",
-            "ja": "驚異の魔法"
-          },
-          "author": {
-            "en": "waaisandesu#249866",
-            "ja": "waaisandesu#249866"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "685f7567fcc694e8df3a6dfe"
-            }
-          ],
-          "description": {
-            "en": "第4回譜面評価試験参加譜面\r\nテーマ「片手を固定させる配置」\r\n\r\nCOMBO:1596\r\nBPM:140\r\nLevel:32.6\r\nAPチェック済み\r\n[本家様](https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a) - https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a",
-            "ja": "第4回譜面評価試験参加譜面\r\nテーマ「片手を固定させる配置」\r\n\r\nCOMBO:1596\r\nBPM:140\r\nLevel:32.6\r\nAPチェック済み\r\n[本家様](https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a) - https://youtu.be/IOIkhSNhpwA?si=1WiFQjGOIU0UMa1a"
-          },
-          "thumbnail": {
-            "hash": "f1e563d5-ec96-4525-941a-675dd7f4d361",
-            "url": "/repository/cover/f1e563d5-ec96-4525-941a-675dd7f4d361"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "dda21ad8-b6b7-47be-836a-682128757752",
-            "url": "/repository/background/dda21ad8-b6b7-47be-836a-682128757752"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "f1e563d5-ec96-4525-941a-675dd7f4d361",
-        "url": "/repository/cover/f1e563d5-ec96-4525-941a-675dd7f4d361"
-      },
-      "bgm": {
-        "hash": "83387248-9976-4a6d-9a41-f396cf101fb6",
-        "url": "/repository/bgm/83387248-9976-4a6d-9a41-f396cf101fb6"
-      },
-      "preview": {
-        "hash": "797a9b01-1767-4102-a9e5-34e7cb0a4171",
-        "url": "/repository/preview/797a9b01-1767-4102-a9e5-34e7cb0a4171"
-      },
-      "data": {
-        "hash": "8580183c-539f-462d-ad7e-8d3db3ce21ed",
-        "url": "/repository/level/8580183c-539f-462d-ad7e-8d3db3ce21ed"
-      },
-      "meta": {
-        "isPublic": true,
-        "wasPublicBefore": true,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": true,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-06-28T04:53:59.820Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860129bfcc694e8df3a6f36",
-      "name": "utsk-d2f4d4a9f56c3215",
-      "rating": 32,
-      "version": 1,
-      "title": {
-        "en": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】",
-        "ja": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】"
-      },
-      "artists": {
-        "en": "DECO*27 & tepe feat. VIRTUAL SINGERS",
-        "ja": "DECO*27 & tepe feat. VIRTUAL SINGERS"
-      },
-      "author": {
-        "en": "TootieJin#a0001",
-        "ja": "TootieJin#a0001"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Other",
-            "ja": "Other"
-          },
-          "_id": "6860129bfcc694e8df3a6f37"
-        },
-        {
-          "title": {
-            "en": "1",
-            "ja": "1"
-          },
-          "icon": "heart",
-          "_id": "6860129bfcc694e8df3a6f38"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "Full video: https://youtu.be/BHVNuwxA1ek\r\nChart Cyanvas: https://cc.sevenc7c.com/charts/3AQH4uPAEx7VxbPcVAnMAvc\r\n\r\nETERNAL **Lv.APD32**\r\n\r\n*ETERNAL difficulty can also be a multi-finger chart.",
-        "ja": "Full video: https://youtu.be/BHVNuwxA1ek\r\nChart Cyanvas: https://cc.sevenc7c.com/charts/3AQH4uPAEx7VxbPcVAnMAvc\r\n\r\nETERNAL **Lv.APD32**\r\n\r\n*ETERNAL difficulty can also be a multi-finger chart."
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-b3c19554108e981d",
-          "version": 2,
-          "title": {
-            "en": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】",
-            "ja": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】"
-          },
-          "subtitle": {
-            "en": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】",
-            "ja": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】"
-          },
-          "author": {
-            "en": "TootieJin#a0001",
-            "ja": "TootieJin#a0001"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6860129bfcc694e8df3a6f39"
-            }
-          ],
-          "description": {
-            "en": "Full video: [https://youtu.be/BHVNuwxA1ek](https://youtu.be/BHVNuwxA1ek)\r\nETERNAL **Lv.APD32**\r\n\r\n*ETERNAL difficulty can also be a multi-finger chart.",
-            "ja": "Full video: [https://youtu.be/BHVNuwxA1ek](https://youtu.be/BHVNuwxA1ek)\r\nETERNAL **Lv.APD32**\r\n\r\n*ETERNAL difficulty can also be a multi-finger chart."
-          },
-          "thumbnail": {
-            "hash": "741a299c-d348-4268-b403-45b4f5beea12",
-            "url": "/repository/cover/741a299c-d348-4268-b403-45b4f5beea12"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "a120b0d4-6e7a-46b4-8884-a17eeffa3ae0",
-            "url": "/repository/background/a120b0d4-6e7a-46b4-8884-a17eeffa3ae0"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "741a299c-d348-4268-b403-45b4f5beea12",
-        "url": "/repository/cover/741a299c-d348-4268-b403-45b4f5beea12"
-      },
-      "bgm": {
-        "hash": "005a6fb2-30b7-4877-a223-7db76365fe53",
-        "url": "/repository/bgm/005a6fb2-30b7-4877-a223-7db76365fe53"
-      },
-      "preview": {
-        "hash": "7b37cc1a-093b-448f-8a0a-a2df0101fe23",
-        "url": "/repository/preview/7b37cc1a-093b-448f-8a0a-a2df0101fe23"
-      },
-      "data": {
-        "hash": "5dbd3f03-e9fe-4745-bb94-4122504fcf24",
-        "url": "/repository/level/5dbd3f03-e9fe-4745-bb94-4122504fcf24"
-      },
-      "meta": {
-        "isPublic": true,
-        "wasPublicBefore": true,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": true,
-          "anonymous_handle": "#a0001",
-          "original_handle": 83816
-        }
-      },
-      "createdAt": "2025-06-28T16:04:43.892Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860a5e5fcc694e8df3a704d",
-      "name": "utsk-c9da8a601a08c536",
-      "rating": 34,
-      "version": 1,
-      "title": {
-        "en": "AIR",
-        "ja": "AIR"
-      },
-      "artists": {
-        "en": "SHIKI",
-        "ja": "SHIKI"
-      },
-      "author": {
-        "en": "uni01#184075",
-        "ja": "uni01#184075"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "APPEND",
-            "ja": "APPEND"
-          },
-          "_id": "6860a5e5fcc694e8df3a704e"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6860a5e5fcc694e8df3a704f"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-de3bbccb7e049528",
-          "version": 2,
-          "title": {
-            "en": "AIR",
-            "ja": "AIR"
-          },
-          "subtitle": {
-            "en": "AIR",
-            "ja": "AIR"
-          },
-          "author": {
-            "en": "uni01#184075",
-            "ja": "uni01#184075"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6860a5e5fcc694e8df3a7050"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "f5c2f6b4-fc84-4b1d-8488-2d66e572b829",
-            "url": "/repository/cover/f5c2f6b4-fc84-4b1d-8488-2d66e572b829"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "085c5324-8394-4876-b2a9-d671e64d28a3",
-            "url": "/repository/background/085c5324-8394-4876-b2a9-d671e64d28a3"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "f5c2f6b4-fc84-4b1d-8488-2d66e572b829",
-        "url": "/repository/cover/f5c2f6b4-fc84-4b1d-8488-2d66e572b829"
-      },
-      "bgm": {
-        "hash": "ab9b884e-4ffc-4d6c-a83e-2e5a2f9fabcb",
-        "url": "/repository/bgm/ab9b884e-4ffc-4d6c-a83e-2e5a2f9fabcb"
-      },
-      "preview": {
-        "hash": "77580d4c-15d7-4903-ae68-41781b38d482",
-        "url": "/repository/preview/77580d4c-15d7-4903-ae68-41781b38d482"
-      },
-      "data": {
-        "hash": "6a729adb-50f4-488d-9ef4-b4b51efd3a64",
-        "url": "/repository/level/6a729adb-50f4-488d-9ef4-b4b51efd3a64"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": true,
-          "users": [
-            {
-              "handle": 567378,
-              "_id": "6865365508f5c70f50fdfada"
-            }
-          ]
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-06-29T02:33:09.224Z",
-      "__v": 0
-    },
-    {
-      "_id": "6860b847fcc694e8df3a7165",
-      "name": "utsk-4f668751cd8920c9",
-      "rating": 29,
-      "version": 1,
-      "title": {
-        "en": "【Ver_2.0】ハローセカイ / Sekai.Ver",
-        "ja": "【Ver_2.0】ハローセカイ / Sekai.Ver"
-      },
-      "artists": {
-        "en": "Deco*27",
-        "ja": "Deco*27"
-      },
-      "author": {
-        "en": "YuaSR25#437087",
-        "ja": "YuaSR25#437087"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "6860b847fcc694e8df3a7166"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6860b847fcc694e8df3a7167"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-f6a88db63cfa5d80",
-          "version": 2,
-          "title": {
-            "en": "【Ver_2.0】ハローセカイ / Sekai.Ver",
-            "ja": "【Ver_2.0】ハローセカイ / Sekai.Ver"
-          },
-          "subtitle": {
-            "en": "【Ver_2.0】ハローセカイ / Sekai.Ver",
-            "ja": "【Ver_2.0】ハローセカイ / Sekai.Ver"
-          },
-          "author": {
-            "en": "YuaSR25#437087",
-            "ja": "YuaSR25#437087"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6860b847fcc694e8df3a7168"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "73ddb136-6910-44c6-b4be-0781be58e1b4",
-            "url": "/repository/cover/73ddb136-6910-44c6-b4be-0781be58e1b4"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "fcc27d9f-9c77-4054-b441-376c1124f866",
-            "url": "/repository/background/fcc27d9f-9c77-4054-b441-376c1124f866"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "73ddb136-6910-44c6-b4be-0781be58e1b4",
-        "url": "/repository/cover/73ddb136-6910-44c6-b4be-0781be58e1b4"
-      },
-      "bgm": {
-        "hash": "046473ae-017a-4ed3-b67f-f4f0af7a6227",
-        "url": "/repository/bgm/046473ae-017a-4ed3-b67f-f4f0af7a6227"
-      },
-      "preview": {
-        "hash": "c7ee2cd8-f98b-4dbe-ac7f-bd92c9509852",
-        "url": "/repository/preview/c7ee2cd8-f98b-4dbe-ac7f-bd92c9509852"
-      },
-      "data": {
-        "hash": "cca29c3f-0796-4d4f-aaaf-e8b69478cfb6",
-        "url": "/repository/level/cca29c3f-0796-4d4f-aaaf-e8b69478cfb6"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-06-29T03:51:35.736Z",
-      "__v": 0
-    },
-    {
-      "_id": "6867d743508894cc0f33620f",
-      "name": "utsk-10e9bff5a8d90225",
-      "rating": 33,
-      "version": 1,
-      "title": {
-        "en": "Stardust：RAY",
-        "ja": "Stardust：RAY"
-      },
-      "artists": {
-        "en": "kanone vs. Black Y",
-        "ja": "kanone vs. Black Y"
-      },
-      "author": {
-        "en": "ZunK417#346737",
-        "ja": "ZunK417#346737"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "6867d743508894cc0f336210"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6867d743508894cc0f336211"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-e1e36cc8e40b80af",
-          "version": 2,
-          "title": {
-            "en": "Stardust：RAY",
-            "ja": "Stardust：RAY"
-          },
-          "subtitle": {
-            "en": "Stardust：RAY",
-            "ja": "Stardust：RAY"
-          },
-          "author": {
-            "en": "ZunK417#346737",
-            "ja": "ZunK417#346737"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6867d743508894cc0f336212"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "9f28adee-9bfb-4fc2-bb12-b4a3c73c1e2f",
-            "url": "/repository/cover/9f28adee-9bfb-4fc2-bb12-b4a3c73c1e2f"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "6e768a7c-c0eb-4c37-b74a-3d35bed03a54",
-            "url": "/repository/background/6e768a7c-c0eb-4c37-b74a-3d35bed03a54"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "9f28adee-9bfb-4fc2-bb12-b4a3c73c1e2f",
-        "url": "/repository/cover/9f28adee-9bfb-4fc2-bb12-b4a3c73c1e2f"
-      },
-      "bgm": {
-        "hash": "1c4d26b0-f410-4ba6-ba82-8b4987dbd0dc",
-        "url": "/repository/bgm/1c4d26b0-f410-4ba6-ba82-8b4987dbd0dc"
-      },
-      "preview": {
-        "hash": "660abccd-bf9b-4f3b-a9f7-c1136f501486",
-        "url": "/repository/preview/660abccd-bf9b-4f3b-a9f7-c1136f501486"
-      },
-      "data": {
-        "hash": "144d0707-a639-495a-afc6-8b604c667d0b",
-        "url": "/repository/level/144d0707-a639-495a-afc6-8b604c667d0b"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": true,
-        "originalUrl": "/repository/chart/9071fa42-05e9-4ea6-b85e-bf27433955e8.usc",
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-04T13:29:39.578Z",
-      "__v": 0
-    },
-    {
-      "_id": "6870eb2018cc28ca6773b078",
-      "name": "utsk-c0b845112e62cca5",
-      "rating": 31,
-      "version": 1,
-      "title": {
-        "en": "桜爛ロマンシア",
-        "ja": "桜爛ロマンシア"
-      },
-      "artists": {
-        "en": "藤井稿太郎 ／　KyoKa",
-        "ja": "藤井稿太郎 ／　KyoKa"
-      },
-      "author": {
-        "en": "pim4n#4814",
-        "ja": "pim4n#4814"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "6870eb2018cc28ca6773b079"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6870eb2018cc28ca6773b07a"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "CCに上げてたものの作り直し\r\n\r\n後半グダグダになったけど頑張って作りました",
-        "ja": "CCに上げてたものの作り直し\r\n\r\n後半グダグダになったけど頑張って作りました"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-56fab932babb3312",
-          "version": 2,
-          "title": {
-            "en": "桜爛ロマンシア",
-            "ja": "桜爛ロマンシア"
-          },
-          "subtitle": {
-            "en": "桜爛ロマンシア",
-            "ja": "桜爛ロマンシア"
-          },
-          "author": {
-            "en": "pim4n#4814",
-            "ja": "pim4n#4814"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6870eb2018cc28ca6773b07b"
-            }
-          ],
-          "description": {
-            "en": "CCに上げてたものの作り直し\r\n\r\n後半グダグダになったけど頑張って作りました",
-            "ja": "CCに上げてたものの作り直し\r\n\r\n後半グダグダになったけど頑張って作りました"
-          },
-          "thumbnail": {
-            "hash": "aa2d68e5-14e3-4be2-958b-46e31d767553",
-            "url": "/repository/cover/aa2d68e5-14e3-4be2-958b-46e31d767553"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "a816baad-e172-4929-8975-d2f759829a43",
-            "url": "/repository/background/a816baad-e172-4929-8975-d2f759829a43"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "aa2d68e5-14e3-4be2-958b-46e31d767553",
-        "url": "/repository/cover/aa2d68e5-14e3-4be2-958b-46e31d767553"
-      },
-      "bgm": {
-        "hash": "c126148f-c586-477d-9259-c7a09e5053b9",
-        "url": "/repository/bgm/c126148f-c586-477d-9259-c7a09e5053b9"
-      },
-      "preview": {
-        "hash": "7ebfd19b-7487-4b64-9837-a7e655617fae",
-        "url": "/repository/preview/7ebfd19b-7487-4b64-9837-a7e655617fae"
-      },
-      "data": {
-        "hash": "b0ca49af-0896-4e23-915b-c3989f8904cd",
-        "url": "/repository/level/b0ca49af-0896-4e23-915b-c3989f8904cd"
-      },
-      "meta": {
-        "isPublic": true,
-        "wasPublicBefore": true,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-11T10:44:48.671Z",
-      "__v": 0
-    },
-    {
-      "_id": "68731e4518cc28ca6773b58d",
-      "name": "utsk-b8ed239a6b2fa04a",
-      "rating": 30,
-      "version": 1,
-      "title": {
-        "en": " ",
-        "ja": " "
-      },
-      "artists": {
-        "en": "。",
-        "ja": "。"
-      },
-      "author": {
-        "en": "めでたい#5999",
-        "ja": "めでたい#5999"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "68731e4518cc28ca6773b58e"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "68731e4518cc28ca6773b58f"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "[あ](https://example.com)\r\n**できるんですね** *こんなこと* ~~おもろ~~\r\n# わー\r\n- すごい\r\n- すごい\r\n- すごい",
-        "ja": "[あ](https://example.com)\r\n**できるんですね** *こんなこと* ~~おもろ~~\r\n# わー\r\n- すごい\r\n- すごい\r\n- すごい"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-59829bd789490800",
-          "version": 2,
-          "title": {
-            "en": " ",
-            "ja": " "
-          },
-          "subtitle": {
-            "en": " ",
-            "ja": " "
-          },
-          "author": {
-            "en": "めでたい#5999",
-            "ja": "めでたい#5999"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "68731e4518cc28ca6773b590"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "db24802f-76e6-4770-91d8-29fb2b61d305",
-            "url": "/repository/cover/db24802f-76e6-4770-91d8-29fb2b61d305"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "0b20fe34-b673-4001-a97f-d9b40eaf3102",
-            "url": "/repository/background/0b20fe34-b673-4001-a97f-d9b40eaf3102"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "db24802f-76e6-4770-91d8-29fb2b61d305",
-        "url": "/repository/cover/db24802f-76e6-4770-91d8-29fb2b61d305"
-      },
-      "bgm": {
-        "hash": "128a0de8-c51e-4100-bb43-37a4575708ee",
-        "url": "/repository/bgm/128a0de8-c51e-4100-bb43-37a4575708ee"
-      },
-      "preview": {
-        "hash": "53ac6338-081c-4f62-bf2e-63b5d65ad86a",
-        "url": "/repository/preview/53ac6338-081c-4f62-bf2e-63b5d65ad86a"
-      },
-      "data": {
-        "hash": "ff26c83b-eb47-44d3-bc1c-fc7917e6ef2a",
-        "url": "/repository/level/ff26c83b-eb47-44d3-bc1c-fc7917e6ef2a"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-13T02:47:33.744Z",
-      "__v": 0
-    },
-    {
-      "_id": "68735ddc18cc28ca6773b927",
-      "name": "utsk-3fb88653bcaff33c",
-      "rating": 32,
-      "version": 1,
-      "title": {
-        "en": "SnowMix♪",
-        "ja": "SnowMix♪"
-      },
-      "artists": {
-        "en": "まらしぃ",
-        "ja": "まらしぃ"
-      },
-      "author": {
-        "en": "まてぃ#18457",
-        "ja": "まてぃ#18457"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "APPEND",
-            "ja": "APPEND"
-          },
-          "_id": "68735ddc18cc28ca6773b928"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "68735ddc18cc28ca6773b929"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "譜面定数 32.5\r\nノーツ数 1983\r\n全体 BPM 185",
-        "ja": "譜面定数 32.5\r\nノーツ数 1983\r\n全体 BPM 185"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-6fc45a13401c0eeb",
-          "version": 2,
-          "title": {
-            "en": "SnowMix♪",
-            "ja": "SnowMix♪"
-          },
-          "subtitle": {
-            "en": "SnowMix♪",
-            "ja": "SnowMix♪"
-          },
-          "author": {
-            "en": "まてぃ#18457",
-            "ja": "まてぃ#18457"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "68735ddc18cc28ca6773b92a"
-            }
-          ],
-          "description": {
-            "en": "譜面定数 32.5\r\nノーツ数 1983\r\n全体 BPM 185",
-            "ja": "譜面定数 32.5\r\nノーツ数 1983\r\n全体 BPM 185"
-          },
-          "thumbnail": {
-            "hash": "5f3a1a08-cc03-4cee-b01f-dbe92aab385e",
-            "url": "/repository/cover/5f3a1a08-cc03-4cee-b01f-dbe92aab385e"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "1d21f0de-3b17-4d3f-aa30-5b7c6202b4b4",
-            "url": "/repository/background/1d21f0de-3b17-4d3f-aa30-5b7c6202b4b4"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "5f3a1a08-cc03-4cee-b01f-dbe92aab385e",
-        "url": "/repository/cover/5f3a1a08-cc03-4cee-b01f-dbe92aab385e"
-      },
-      "bgm": {
-        "hash": "4c2a1e18-c30b-4b7c-ad9a-d2039bed48cd",
-        "url": "/repository/bgm/4c2a1e18-c30b-4b7c-ad9a-d2039bed48cd"
-      },
-      "preview": {
-        "hash": "4ae6a5bc-0e2f-4293-a85a-5450dff22e50",
-        "url": "/repository/preview/4ae6a5bc-0e2f-4293-a85a-5450dff22e50"
-      },
-      "data": {
-        "hash": "72d3c2dc-c9bc-47f4-92ee-9e8c0adca984",
-        "url": "/repository/level/72d3c2dc-c9bc-47f4-92ee-9e8c0adca984"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-13T07:18:52.263Z",
-      "__v": 0
-    },
-    {
-      "_id": "6873b84318cc28ca6773b96a",
-      "name": "utsk-35ae255f2cfa9dee",
-      "rating": 30,
-      "version": 1,
-      "title": {
-        "en": "a",
-        "ja": "a"
-      },
-      "artists": {
-        "en": "a",
-        "ja": "a"
-      },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "APPEND",
-            "ja": "APPEND"
-          },
-          "_id": "6873b84318cc28ca6773b96b"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6873b84318cc28ca6773b96c"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "a",
-        "ja": "a"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-c9f62385190ba7b4",
-          "version": 2,
-          "title": {
-            "en": "a",
-            "ja": "a"
-          },
-          "subtitle": {
-            "en": "a",
-            "ja": "a"
-          },
-          "author": {
-            "en": "waaisandesu#249866",
-            "ja": "waaisandesu#249866"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6873b84318cc28ca6773b96d"
-            }
-          ],
-          "description": {
-            "en": "a",
-            "ja": "a"
-          },
-          "thumbnail": {
-            "hash": "08a99a7a-389d-4fd5-a795-dc68194c7064",
-            "url": "/repository/cover/08a99a7a-389d-4fd5-a795-dc68194c7064"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "fbfa4403-75e3-4436-9942-f840a111b715",
-            "url": "/repository/background/fbfa4403-75e3-4436-9942-f840a111b715"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "08a99a7a-389d-4fd5-a795-dc68194c7064",
-        "url": "/repository/cover/08a99a7a-389d-4fd5-a795-dc68194c7064"
-      },
-      "bgm": {
-        "hash": "8c236167-5681-40bd-97fb-8509dbbe8bda",
-        "url": "/repository/bgm/8c236167-5681-40bd-97fb-8509dbbe8bda"
-      },
-      "preview": {
-        "hash": "e778f6e2-a58c-4712-a826-d1ab2a0ffaff",
-        "url": "/repository/preview/e778f6e2-a58c-4712-a826-d1ab2a0ffaff"
-      },
-      "data": {
-        "hash": "68b67974-493f-4f03-9317-f80f913ccb29",
-        "url": "/repository/level/68b67974-493f-4f03-9317-f80f913ccb29"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": true,
-        "originalUrl": "/repository/chart/48fcb8c2-d3bc-4a80-acb7-3552a359e781.sus",
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-13T13:44:35.430Z",
-      "__v": 0
-    },
-    {
-      "_id": "6878664798f3acaa6256e433",
-      "name": "utsk-221e28a117469b29",
-      "rating": 29,
-      "version": 1,
-      "title": {
-        "en": "Jellyous",
-        "ja": "Jellyous"
-      },
-      "artists": {
-        "en": "ILLIT",
-        "ja": "ILLIT"
-      },
-      "author": {
-        "en": "TsukuPG#458996",
-        "ja": "TsukuPG#458996"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "6878664798f3acaa6256e434"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6878664798f3acaa6256e435"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "MASTER - LV. 29",
-        "ja": "MASTER - LV. 29"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-50d09b2a8508241a",
-          "version": 2,
-          "title": {
-            "en": "Jellyous",
-            "ja": "Jellyous"
-          },
-          "subtitle": {
-            "en": "Jellyous",
-            "ja": "Jellyous"
-          },
-          "author": {
-            "en": "TsukuPG#458996",
-            "ja": "TsukuPG#458996"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6878664798f3acaa6256e436"
-            }
-          ],
-          "description": {
-            "en": "MASTER - LV. 29",
-            "ja": "MASTER - LV. 29"
-          },
-          "thumbnail": {
-            "hash": "007afd93-7688-4277-bf8d-fced1600e995",
-            "url": "/repository/cover/007afd93-7688-4277-bf8d-fced1600e995"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "e05bb750-fb52-483d-9f54-8cc78f1ae7ca",
-            "url": "/repository/background/e05bb750-fb52-483d-9f54-8cc78f1ae7ca"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "007afd93-7688-4277-bf8d-fced1600e995",
-        "url": "/repository/cover/007afd93-7688-4277-bf8d-fced1600e995"
-      },
-      "bgm": {
-        "hash": "8ea517e8-97f7-40ab-8e6d-74e95ae37f03",
-        "url": "/repository/bgm/8ea517e8-97f7-40ab-8e6d-74e95ae37f03"
-      },
-      "preview": {
-        "hash": "9d5ab6f8-e014-4c97-ac56-100c14487889",
-        "url": "/repository/preview/9d5ab6f8-e014-4c97-ac56-100c14487889"
-      },
-      "data": {
-        "hash": "f6b1e77d-f609-4b2b-9209-37dfe9421e7e",
-        "url": "/repository/level/f6b1e77d-f609-4b2b-9209-37dfe9421e7e"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-17T02:56:07.162Z",
-      "__v": 0
-    },
-    {
-      "_id": "687b34f555ae5b439d484964",
-      "name": "utsk-c40f73cf2ca2a3f9",
-      "rating": 30,
-      "version": 1,
-      "title": {
-        "en": "モンダイナイトリッパー！",
-        "ja": "モンダイナイトリッパー！"
-      },
-      "artists": {
-        "en": "sasakure.UK feat.名取さな",
-        "ja": "sasakure.UK feat.名取さな"
-      },
-      "author": {
-        "en": "Highlight159#14501",
-        "ja": "Highlight159#14501"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "687b34f555ae5b439d484965"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "687b34f555ae5b439d484966"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-f23b0f5c0c41d010",
-          "version": 2,
-          "title": {
-            "en": "モンダイナイトリッパー！",
-            "ja": "モンダイナイトリッパー！"
-          },
-          "subtitle": {
-            "en": "モンダイナイトリッパー！",
-            "ja": "モンダイナイトリッパー！"
-          },
-          "author": {
-            "en": "Highlight159#14501",
-            "ja": "Highlight159#14501"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "687b34f555ae5b439d484967"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "81efcee2-5d4e-4737-bee1-73d91acef582",
-            "url": "/repository/cover/81efcee2-5d4e-4737-bee1-73d91acef582"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "421e4d3a-6df8-410c-a190-3b26e7667818",
-            "url": "/repository/background/421e4d3a-6df8-410c-a190-3b26e7667818"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "81efcee2-5d4e-4737-bee1-73d91acef582",
-        "url": "/repository/cover/81efcee2-5d4e-4737-bee1-73d91acef582"
-      },
-      "bgm": {
-        "hash": "44a3d3c3-7cbf-4233-a7b5-f99bd19e2f42",
-        "url": "/repository/bgm/44a3d3c3-7cbf-4233-a7b5-f99bd19e2f42"
-      },
-      "preview": {
-        "hash": "b089241f-b6cb-4bbd-9579-9de083e7e293",
-        "url": "/repository/preview/b089241f-b6cb-4bbd-9579-9de083e7e293"
-      },
-      "data": {
-        "hash": "9d1874ce-0a9f-4d0a-a47a-099530840254",
-        "url": "/repository/level/9d1874ce-0a9f-4d0a-a47a-099530840254"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-19T06:02:29.888Z",
-      "__v": 0
-    },
-    {
-      "_id": "687b411655ae5b439d484a12",
-      "name": "utsk-86e8adef65538e12",
-      "rating": 33,
-      "version": 1,
-      "title": {
-        "en": "KINGWORLD",
-        "ja": "KINGWORLD"
-      },
-      "artists": {
-        "en": "sasakure.UK feat.白上フブキ",
-        "ja": "sasakure.UK feat.白上フブキ"
-      },
-      "author": {
-        "en": "ハイライト#14501",
-        "ja": "ハイライト#14501"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "687b411655ae5b439d484a13"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "687b411655ae5b439d484a14"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-dd657afd39cc07dc",
-          "version": 2,
-          "title": {
-            "en": "KINGWORLD",
-            "ja": "KINGWORLD"
-          },
-          "subtitle": {
-            "en": "KINGWORLD",
-            "ja": "KINGWORLD"
-          },
-          "author": {
-            "en": "ハイライト#14501",
-            "ja": "ハイライト#14501"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "687b411655ae5b439d484a15"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "9baa0609-62d8-4612-9e86-5a51cf43dc05",
-            "url": "/repository/cover/9baa0609-62d8-4612-9e86-5a51cf43dc05"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "098f70f9-3d95-43bb-8401-e2e08c002b51",
-            "url": "/repository/background/098f70f9-3d95-43bb-8401-e2e08c002b51"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "9baa0609-62d8-4612-9e86-5a51cf43dc05",
-        "url": "/repository/cover/9baa0609-62d8-4612-9e86-5a51cf43dc05"
-      },
-      "bgm": {
-        "hash": "24d8752e-13f5-4336-be8e-e55aea70cf08",
-        "url": "/repository/bgm/24d8752e-13f5-4336-be8e-e55aea70cf08"
-      },
-      "preview": {
-        "hash": "1de09ecc-2cfe-41ba-9de6-90c817e2c69c",
-        "url": "/repository/preview/1de09ecc-2cfe-41ba-9de6-90c817e2c69c"
-      },
-      "data": {
-        "hash": "0e7bdc82-a8de-425f-ac43-46cc707b600b",
-        "url": "/repository/level/0e7bdc82-a8de-425f-ac43-46cc707b600b"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-19T06:54:14.563Z",
-      "__v": 0
-    },
-    {
-      "_id": "6880fbb3eb194f49b6147bed",
-      "name": "utsk-5a087356683111eb",
-      "rating": 30,
-      "version": 1,
-      "title": {
-        "en": "Moonflutter",
-        "ja": "Moonflutter"
-      },
-      "artists": {
-        "en": "Reku Mochizuki",
-        "ja": "Reku Mochizuki"
-      },
-      "author": {
-        "en": "Kameng585#527916",
-        "ja": "Kameng585#527916"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "6880fbb3eb194f49b6147bee"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "6880fbb3eb194f49b6147bef"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "BPM174\r\nChart Cyanvasにも投稿",
-        "ja": "BPM174\r\nChart Cyanvasにも投稿"
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-1366e86e7fe0f94d",
-          "version": 2,
-          "title": {
-            "en": "Moonflutter",
-            "ja": "Moonflutter"
-          },
-          "subtitle": {
-            "en": "Moonflutter",
-            "ja": "Moonflutter"
-          },
-          "author": {
-            "en": "Kameng585#527916",
-            "ja": "Kameng585#527916"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "6880fbb3eb194f49b6147bf0"
-            }
-          ],
-          "description": {
-            "en": "BPM174\r\nChart Cyanvasにも投稿",
-            "ja": "BPM174\r\nChart Cyanvasにも投稿"
-          },
-          "thumbnail": {
-            "hash": "1c9584e4-7245-49da-a770-d2133bc28c6e",
-            "url": "/repository/cover/1c9584e4-7245-49da-a770-d2133bc28c6e"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "a0cea97a-9897-43f9-8768-5e58ab7fa9be",
-            "url": "/repository/background/a0cea97a-9897-43f9-8768-5e58ab7fa9be"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "1c9584e4-7245-49da-a770-d2133bc28c6e",
-        "url": "/repository/cover/1c9584e4-7245-49da-a770-d2133bc28c6e"
-      },
-      "bgm": {
-        "hash": "9dad4db8-9456-47a6-9b20-bd4f2f14c3c2",
-        "url": "/repository/bgm/9dad4db8-9456-47a6-9b20-bd4f2f14c3c2"
-      },
-      "preview": {
-        "hash": "a17cb65a-04fd-46f4-8d6b-0dafb2edc3cd",
-        "url": "/repository/preview/a17cb65a-04fd-46f4-8d6b-0dafb2edc3cd"
-      },
-      "data": {
-        "hash": "a5c25b8a-bbb7-4341-9ee4-72e62343b69e",
-        "url": "/repository/level/a5c25b8a-bbb7-4341-9ee4-72e62343b69e"
-      },
-      "meta": {
-        "isPublic": true,
-        "wasPublicBefore": true,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-23T15:11:47.330Z",
-      "__v": 0
-    },
-    {
-      "_id": "68823e2aeb194f49b6148231",
-      "name": "utsk-c641f19a54a811bd",
-      "rating": 30,
-      "version": 1,
-      "title": {
-        "en": "僕らの星座",
-        "ja": "僕らの星座"
-      },
-      "artists": {
-        "en": "Revo",
-        "ja": "Revo"
-      },
-      "author": {
-        "en": "pim4n#4814",
-        "ja": "pim4n#4814"
-      },
-      "tags": [
-        {
-          "title": {
-            "en": "Master",
-            "ja": "Master"
-          },
-          "_id": "68823e2aeb194f49b6148232"
-        },
-        {
-          "title": {
-            "en": "0",
-            "ja": "0"
-          },
-          "icon": "heart",
-          "_id": "68823e2aeb194f49b6148233"
-        }
-      ],
-      "engine": "pjsekai",
-      "description": {
-        "en": "",
-        "ja": ""
-      },
-      "useBackground": {
-        "useDefault": false,
-        "item": {
-          "name": "utsk-background-c68b6e7f13585ca4",
-          "version": 2,
-          "title": {
-            "en": "僕らの星座",
-            "ja": "僕らの星座"
-          },
-          "subtitle": {
-            "en": "僕らの星座",
-            "ja": "僕らの星座"
-          },
-          "author": {
-            "en": "pim4n#4814",
-            "ja": "pim4n#4814"
-          },
-          "tags": [
-            {
-              "title": {
-                "en": "background",
-                "ja": "background"
-              },
-              "_id": "68823e2aeb194f49b6148234"
-            }
-          ],
-          "description": {
-            "en": "",
-            "ja": ""
-          },
-          "thumbnail": {
-            "hash": "3fdf9179-0bb3-4817-b1b7-5a560a597371",
-            "url": "/repository/cover/3fdf9179-0bb3-4817-b1b7-5a560a597371"
-          },
-          "data": {
-            "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
-            "url": "/repository/background/v3_data.json.gz"
-          },
-          "image": {
-            "hash": "7b37b6b5-f578-4df9-8573-e44fdceef875",
-            "url": "/repository/background/7b37b6b5-f578-4df9-8573-e44fdceef875"
-          },
-          "configuration": {
-            "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
-            "url": "/repository/background/configuration.json.gz"
-          }
-        }
-      },
-      "useEffect": {
-        "useDefault": true
-      },
-      "useParticle": {
-        "useDefault": true
-      },
-      "useSkin": {
-        "useDefault": true
-      },
-      "cover": {
-        "hash": "3fdf9179-0bb3-4817-b1b7-5a560a597371",
-        "url": "/repository/cover/3fdf9179-0bb3-4817-b1b7-5a560a597371"
-      },
-      "bgm": {
-        "hash": "52a67e9b-c2f2-462d-a5be-0da8026b28b2",
-        "url": "/repository/bgm/52a67e9b-c2f2-462d-a5be-0da8026b28b2"
-      },
-      "preview": {
-        "hash": "7008df26-6588-4e81-aeb5-74583ad3de4e",
-        "url": "/repository/preview/7008df26-6588-4e81-aeb5-74583ad3de4e"
-      },
-      "data": {
-        "hash": "30a61edc-8bc2-4d58-90ac-b18ba58841dd",
-        "url": "/repository/level/30a61edc-8bc2-4d58-90ac-b18ba58841dd"
-      },
-      "meta": {
-        "isPublic": false,
-        "wasPublicBefore": false,
-        "derivative": {
-          "isDerivative": false
-        },
-        "fileOpen": false,
-        "collaboration": {
-          "iscollaboration": false,
-          "members": []
-        },
-        "privateShare": {
-          "isPrivateShare": false,
-          "users": []
-        },
-        "anonymous": {
-          "isAnonymous": false,
-          "anonymous_handle": "",
-          "original_handle": 0
-        }
-      },
-      "createdAt": "2025-07-24T14:07:38.976Z",
-      "__v": 0
     }
   ],
-  "newcharts": [
+  "users": [
     {
-      "_id": "6856bc0c7c1f6e1d8d1657d3",
-      "name": "utsk-0ebc33d9c1d21eb6",
-      "publishedAt": "2025-06-21T14:05:00.857Z",
+      "_id": "6855f6f17c1f6e1d8d165402",
+      "username": "uni01",
+      "password": "$2b$10$BFaD0RAQkfP/TCscJ64/sORd3yOL81pQoIBYhSMP90JzJBir/mLl6",
+      "userNumber": 795507,
+      "sonolusAuthenticated": false,
+      "role": "user",
+      "profile": {
+        "iconColor": "#6366f1",
+        "description": ""
+      },
+      "following": [],
+      "followers": [],
+      "timeoutUntil": null,
+      "timeoutReason": null,
+      "isBanned": false,
+      "banReason": null,
+      "bannedBy": null,
+      "banDate": null,
+      "likedCharts": [],
+      "sonolusAuth": true,
+      "anonymousaccount": [],
+      "createdAt": "2025-06-21T00:04:01.287Z",
+      "updatedAt": "2025-06-21T00:04:37.674Z",
+      "__v": 0,
+      "sonolusProfile": {
+        "id": "3c8aaa30d529446c7d4d89f3e282ababc0a7f581dcb6122ac7fe4086c4c6c7d0",
+        "handle": "184075",
+        "name": "uni01",
+        "avatarForegroundColor": "#ffffffff",
+        "avatarBackgroundColor": "#000020ff",
+        "aboutMe": "ゆっくりしようや\n私の譜面のほぼ全ては改造Ched(SKEdition)で製作されています。\n一応mmwも使える()\nゆっくりスカイさんに絶大な感謝を",
+        "favorites": []
+      }
+    },
+    {
+      "_id": "6856323d7c1f6e1d8d1655fd",
+      "username": "pim4n",
+      "password": "$2b$10$TTNFOIi7RF4BVJ6jXEtmsOILswzu0.rizpNabKeVhR4OoAIMgzbae",
+      "userNumber": 136394,
+      "sonolusAuthenticated": false,
+      "role": "admin",
+      "profile": {
+        "iconColor": "#6366f1",
+        "description": ""
+      },
+      "following": [],
+      "followers": [],
+      "timeoutUntil": null,
+      "timeoutReason": null,
+      "isBanned": false,
+      "banReason": null,
+      "bannedBy": null,
+      "banDate": null,
+      "likedCharts": [
+        "utsk-0cfb61a36a138e6b"
+      ],
+      "sonolusAuth": true,
+      "anonymousaccount": [],
+      "createdAt": "2025-06-21T04:17:01.526Z",
+      "updatedAt": "2025-06-22T10:41:59.023Z",
+      "__v": 1,
+      "sonolusProfile": {
+        "id": "d6429cdcdf8f6d6b1d8d0b413f35d9f07276bb15eabcf900e08d201cbe4b9df6",
+        "handle": "4814",
+        "name": "ぴぃまん",
+        "avatarForegroundColor": "#00C700F5",
+        "avatarBackgroundColor": "#000020ff",
+        "aboutMe": "よろしく!",
+        "favorites": []
+      }
+    },
+    {
+      "_id": "6856324c7c1f6e1d8d165605",
+      "username": "testuser",
+      "password": "$2b$10$ewpi7rp8nzqm8f6dK3OuZ.iHpM0O4E0ScFJkXkCOxOoIypxziQbe.",
+      "userNumber": 634323,
+      "sonolusAuthenticated": false,
+      "role": "user",
+      "profile": {
+        "iconColor": "#6366f1",
+        "description": ""
+      },
+      "following": [],
+      "followers": [],
+      "timeoutUntil": null,
+      "timeoutReason": null,
+      "isBanned": false,
+      "banReason": null,
+      "bannedBy": null,
+      "banDate": null,
+      "likedCharts": [],
+      "sonolusAuth": false,
+      "anonymousaccount": [],
+      "createdAt": "2025-06-21T04:17:16.450Z",
+      "updatedAt": "2025-06-21T04:17:16.450Z",
+      "__v": 0
+    },
+    {
+      "_id": "685635c97c1f6e1d8d165656",
+      "username": "wamom",
+      "password": "$2b$10$TTTxWEr.ZIsxrrswI3eIwOL7BPOEemFC.8pUD5LHlqynlxIA7fsca",
+      "userNumber": 263324,
+      "sonolusAuthenticated": false,
+      "role": "user",
+      "profile": {
+        "iconColor": "#6366f1",
+        "description": ""
+      },
+      "following": [],
+      "followers": [],
+      "timeoutUntil": null,
+      "timeoutReason": null,
+      "isBanned": false,
+      "banReason": null,
+      "bannedBy": null,
+      "banDate": null,
+      "likedCharts": [],
+      "sonolusAuth": false,
+      "anonymousaccount": [],
+      "createdAt": "2025-06-21T04:32:09.078Z",
+      "updatedAt": "2025-06-21T04:32:09.078Z",
+      "__v": 0
+    },
+    {
+      "_id": "6856ba717c1f6e1d8d165767",
+      "username": "unisub",
+      "password": "$2b$10$cHIu9SeL4jx5ivX8qkaS8u0pdbH20y6pCKIp4oKepXQR9xyI5PZ8S",
+      "userNumber": 706971,
+      "sonolusAuthenticated": false,
+      "role": "user",
+      "profile": {
+        "iconColor": "#6366f1",
+        "description": ""
+      },
+      "following": [],
+      "followers": [],
+      "timeoutUntil": null,
+      "timeoutReason": null,
+      "isBanned": false,
+      "banReason": null,
+      "bannedBy": null,
+      "banDate": null,
+      "likedCharts": [],
+      "sonolusAuth": false,
+      "anonymousaccount": [],
+      "createdAt": "2025-06-21T13:58:09.565Z",
+      "updatedAt": "2025-06-21T13:58:09.565Z",
+      "__v": 0
+    },
+    {
+      "_id": "68579ddd7c1f6e1d8d1659e2",
+      "username": "waaisandesu",
+      "password": "$2b$10$znjVOdKGLKeorcok60Evbu7n87mJzuX2l1p3Nxf2WEq6FICV2SmQu",
+      "userNumber": 652831,
+      "sonolusAuthenticated": false,
+      "role": "moderator",
+      "profile": {
+        "iconColor": "#6366f1",
+        "description": ""
+      },
+      "following": [],
+      "followers": [],
+      "timeoutUntil": null,
+      "timeoutReason": null,
+      "isBanned": false,
+      "banReason": null,
+      "bannedBy": null,
+      "banDate": null,
+      "likedCharts": [],
+      "sonolusAuth": true,
+      "anonymousaccount": [],
+      "createdAt": "2025-06-22T06:08:29.348Z",
+      "updatedAt": "2025-06-22T06:14:09.540Z",
+      "__v": 0,
+      "sonolusProfile": {
+        "id": "c9ce186e3894085737386aa374f3ad3ac83687f24fd91c657cd2187ed6384815",
+        "handle": "249866",
+        "name": "わい",
+        "avatarForegroundColor": "#ffffffff",
+        "avatarBackgroundColor": "#000020ff",
+        "aboutMe": "Nice to meet you!",
+        "favorites": []
+      }
+    }
+  ],
+  "events": [],
+  "backgrounds": [
+    {
+      "_id": "6856bc047c1f6e1d8d1657b9",
+      "name": "utsk-background-a405a8f0707ecc7f",
+      "version": 2,
       "title": {
         "en": "A Horny Money World ~伝説の夜~",
         "ja": "A Horny Money World ~伝説の夜~"
       },
-      "artist": {
-        "en": "歌：宝鐘マリン 作編曲：D.watt (IOSYS)　 作詞：まろん (IOSYS)",
-        "ja": "歌：宝鐘マリン 作編曲：D.watt (IOSYS)　 作詞：まろん (IOSYS)"
+      "subtitle": {
+        "en": "A Horny Money World ~伝説の夜~",
+        "ja": "A Horny Money World ~伝説の夜~"
       },
       "author": {
         "en": "pim4n#4814",
         "ja": "pim4n#4814"
       },
-      "rating": 31,
-      "coverUrl": "/repository/cover/c42755a2-c028-4714-9349-e46078f47717",
+      "tags": [
+        {
+          "title": {
+            "en": "background",
+            "ja": "background"
+          },
+          "_id": "6856bc047c1f6e1d8d1657ba"
+        }
+      ],
+      "description": {
+        "en": "いぇい",
+        "ja": "いぇい"
+      },
+      "thumbnail": {
+        "hash": "c42755a2-c028-4714-9349-e46078f47717",
+        "url": "/repository/cover/c42755a2-c028-4714-9349-e46078f47717"
+      },
+      "data": {
+        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
+        "url": "/repository/background/v3_data.json.gz"
+      },
+      "image": {
+        "hash": "f767420d-a1e8-4dc0-8b26-3dde7ed946e0",
+        "url": "/repository/background/f767420d-a1e8-4dc0-8b26-3dde7ed946e0"
+      },
+      "configuration": {
+        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
+        "url": "/repository/background/configuration.json.gz"
+      },
+      "createdAt": "2025-06-21T14:04:52.580Z",
       "__v": 0
     },
     {
-      "_id": "6857ca107c1f6e1d8d165b7b",
-      "name": "utsk-aedb30745d5c44f8",
-      "publishedAt": "2025-06-22T09:17:04.504Z",
-      "title": {
-        "en": "ANU",
-        "ja": "ANU"
-      },
-      "artist": {
-        "en": "sasakure.UK vs 穴山大輔",
-        "ja": "sasakure.UK vs 穴山大輔"
-      },
-      "author": {
-        "en": "uni01#184075",
-        "ja": "uni01#184075"
-      },
-      "rating": 37,
-      "coverUrl": "/repository/cover/f921f1ba-5956-48ce-ba34-edf74be5f212",
-      "__v": 0
-    },
-    {
-      "_id": "6857caa97c1f6e1d8d165bc9",
-      "name": "utsk-0cfb61a36a138e6b",
-      "publishedAt": "2025-06-22T09:19:37.462Z",
+      "_id": "6857c0f27c1f6e1d8d165a76",
+      "name": "utsk-background-9f11e24b4ad58c44",
+      "version": 2,
       "title": {
         "en": "祝福",
         "ja": "祝福"
       },
-      "artist": {
-        "en": "ikura",
-        "ja": "ikura"
+      "subtitle": {
+        "en": "祝福",
+        "ja": "祝福"
       },
       "author": {
         "en": "waaisandesu#249866",
         "ja": "waaisandesu#249866"
       },
-      "rating": 30,
-      "coverUrl": "/repository/cover/287e918d-0026-4d4b-a679-45f79799c54c",
+      "tags": [
+        {
+          "title": {
+            "en": "background",
+            "ja": "background"
+          },
+          "_id": "6857c0f27c1f6e1d8d165a77"
+        }
+      ],
+      "description": {
+        "en": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み",
+        "ja": "『機動戦士ガンダム 水星の魔女』オープニングテーマ\r\nMusic : Ayase\r\nVocal : ikura\r\n\r\nCOMBO:1000\r\nBPM:180\r\nLevel:30.6\r\nAPチェック済み"
+      },
+      "thumbnail": {
+        "hash": "287e918d-0026-4d4b-a679-45f79799c54c",
+        "url": "/repository/cover/287e918d-0026-4d4b-a679-45f79799c54c"
+      },
+      "data": {
+        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
+        "url": "/repository/background/v3_data.json.gz"
+      },
+      "image": {
+        "hash": "ad4d4d62-0c77-4ce4-b4c1-cf48c2bfa082",
+        "url": "/repository/background/ad4d4d62-0c77-4ce4-b4c1-cf48c2bfa082"
+      },
+      "configuration": {
+        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
+        "url": "/repository/background/configuration.json.gz"
+      },
+      "createdAt": "2025-06-22T08:38:10.086Z",
       "__v": 0
     },
     {
-      "_id": "6857cae97c1f6e1d8d165bf4",
-      "name": "utsk-d303a8c6af4a6f03",
-      "publishedAt": "2025-06-22T09:20:41.625Z",
+      "_id": "6857c7e57c1f6e1d8d165b0c",
+      "name": "utsk-background-61a666a6dd88e280",
+      "version": 2,
+      "title": {
+        "en": "ANU",
+        "ja": "ANU"
+      },
+      "subtitle": {
+        "en": "ANU",
+        "ja": "ANU"
+      },
+      "author": {
+        "en": "uni01#184075",
+        "ja": "uni01#184075"
+      },
+      "tags": [
+        {
+          "title": {
+            "en": "background",
+            "ja": "background"
+          },
+          "_id": "6857c7e57c1f6e1d8d165b0d"
+        }
+      ],
+      "description": {
+        "en": "",
+        "ja": ""
+      },
+      "thumbnail": {
+        "hash": "f921f1ba-5956-48ce-ba34-edf74be5f212",
+        "url": "/repository/cover/f921f1ba-5956-48ce-ba34-edf74be5f212"
+      },
+      "data": {
+        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
+        "url": "/repository/background/v3_data.json.gz"
+      },
+      "image": {
+        "hash": "a32b57f9-d6b5-44d8-933d-9f202febc7c9",
+        "url": "/repository/background/a32b57f9-d6b5-44d8-933d-9f202febc7c9"
+      },
+      "configuration": {
+        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
+        "url": "/repository/background/configuration.json.gz"
+      },
+      "createdAt": "2025-06-22T09:07:49.789Z",
+      "__v": 0
+    },
+    {
+      "_id": "6857cae37c1f6e1d8d165bda",
+      "name": "utsk-background-c5f149e982c3f3e5",
+      "version": 2,
       "title": {
         "en": "Opfer",
         "ja": "Opfer"
       },
-      "artist": {
-        "en": "かねこちはる",
-        "ja": "かねこちはる"
+      "subtitle": {
+        "en": "Opfer",
+        "ja": "Opfer"
       },
       "author": {
         "en": "uni01#184075",
         "ja": "uni01#184075"
       },
-      "rating": 34,
-      "coverUrl": "/repository/cover/6615e53d-51b0-4ab1-940b-b4d0c63844c3",
-      "__v": 0
-    },
-    {
-      "_id": "685f7572fcc694e8df3a6e1a",
-      "name": "utsk-54e8d8ec9aef5ffb",
-      "publishedAt": "2025-06-28T04:54:10.988Z",
-      "title": {
-        "en": "驚異の魔法",
-        "ja": "驚異の魔法"
+      "tags": [
+        {
+          "title": {
+            "en": "background",
+            "ja": "background"
+          },
+          "_id": "6857cae37c1f6e1d8d165bdb"
+        }
+      ],
+      "description": {
+        "en": "24分の鍵盤",
+        "ja": "24分の鍵盤"
       },
-      "artist": {
-        "en": "いよわ feat.長瀬有花",
-        "ja": "いよわ feat.長瀬有花"
+      "thumbnail": {
+        "hash": "6615e53d-51b0-4ab1-940b-b4d0c63844c3",
+        "url": "/repository/cover/6615e53d-51b0-4ab1-940b-b4d0c63844c3"
       },
-      "author": {
-        "en": "waaisandesu#249866",
-        "ja": "waaisandesu#249866"
+      "data": {
+        "hash": "c972b0fb8294c036bf95ccd9320218046f084235",
+        "url": "/repository/background/v3_data.json.gz"
       },
-      "rating": 32,
-      "coverUrl": "/repository/cover/f1e563d5-ec96-4525-941a-675dd7f4d361",
-      "__v": 0
-    },
-    {
-      "_id": "686013e5fcc694e8df3a6fbc",
-      "name": "utsk-d2f4d4a9f56c3215",
-      "publishedAt": "2025-06-28T16:10:13.994Z",
-      "title": {
-        "en": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】",
-        "ja": "【FULL ver.】ハローセカイ- Hello, SEKAI【ETERNAL】"
+      "image": {
+        "hash": "db1029fd-4423-4ef0-afd4-85eeb3a043c0",
+        "url": "/repository/background/db1029fd-4423-4ef0-afd4-85eeb3a043c0"
       },
-      "artist": {
-        "en": "DECO*27 & tepe feat. VIRTUAL SINGERS",
-        "ja": "DECO*27 & tepe feat. VIRTUAL SINGERS"
+      "configuration": {
+        "hash": "1d74186f6969df1e006736f03424994a4c1a731b",
+        "url": "/repository/background/configuration.json.gz"
       },
-      "author": {
-        "en": "TootieJin#a0001",
-        "ja": "TootieJin#a0001"
-      },
-      "rating": 32,
-      "coverUrl": "/repository/cover/741a299c-d348-4268-b403-45b4f5beea12",
-      "__v": 0
-    },
-    {
-      "_id": "6876575c98f3acaa6256e286",
-      "name": "utsk-ce58850254a7c0dd",
-      "publishedAt": "2025-07-15T13:27:56.367Z",
-      "title": {
-        "en": "マシンガンポエムドール",
-        "ja": "マシンガンポエムドール"
-      },
-      "artist": {
-        "en": "cosMo@暴走P",
-        "ja": "cosMo@暴走P"
-      },
-      "author": {
-        "en": "uni01#184075",
-        "ja": "uni01#184075"
-      },
-      "rating": 37,
-      "coverUrl": "/repository/cover/fc473443-10b4-4047-83fb-5fab0fd535cd",
-      "__v": 0
-    },
-    {
-      "_id": "6879ea3455ae5b439d48409b",
-      "name": "utsk-c0b845112e62cca5",
-      "publishedAt": "2025-07-18T06:31:16.710Z",
-      "title": {
-        "en": "桜爛ロマンシア",
-        "ja": "桜爛ロマンシア"
-      },
-      "artist": {
-        "en": "藤井稿太郎 ／　KyoKa",
-        "ja": "藤井稿太郎 ／　KyoKa"
-      },
-      "author": {
-        "en": "pim4n#4814",
-        "ja": "pim4n#4814"
-      },
-      "rating": 30,
-      "coverUrl": "/repository/cover/aa2d68e5-14e3-4be2-958b-46e31d767553",
-      "__v": 0
-    },
-    {
-      "_id": "68817c51eb194f49b6147e48",
-      "name": "utsk-5a087356683111eb",
-      "publishedAt": "2025-07-24T00:20:33.929Z",
-      "title": {
-        "en": "Moonflutter",
-        "ja": "Moonflutter"
-      },
-      "artist": {
-        "en": "Reku Mochizuki",
-        "ja": "Reku Mochizuki"
-      },
-      "author": {
-        "en": "Kameng585#527916",
-        "ja": "Kameng585#527916"
-      },
-      "rating": 30,
-      "coverUrl": "/repository/cover/1c9584e4-7245-49da-a770-d2133bc28c6e",
+      "createdAt": "2025-06-22T09:20:35.969Z",
       "__v": 0
     }
   ]
