@@ -11,18 +11,30 @@
     margin-bottom: 2.5rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid #eee;
+    position: relative; /* 相対位置指定 */
+    z-index: 1; /* ベースのz-index */
 }
 
 .profile-avatar {
-    width: 120px;
-    height: 120px;
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    justify-content: center;
+    font-size: 2.5rem;
     font-weight: bold;
     color: white;
+    margin-right: 2rem;
+    flex-shrink: 0;
+    position: relative; /* 相対位置指定を追加 */
+    z-index: 10; /* 最前面に表示 */
+}
+
+/* Sonolusアバター用の調整 */
+.profile-avatar.sonolus-avatar {
+    margin-right: 2rem;
+    z-index: 15; /* より高いz-index */
 }
 
 .profile-info {
@@ -401,4 +413,39 @@
   content: '';
   display: block;
   padding-right: 20px;
+}
+
+/* Sonolusアバター用のスタイル */
+.profile-avatar-container {
+    position: relative;
+    z-index: 10;
+}
+
+/* 以下のスタイルは重複しているので削除またはコメントアウト */
+/*
+.sonolus-avatar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+
+/* 画像読み込み失敗時のフォールバック */
+.sonolus-avatar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    z-index: -1;
 }

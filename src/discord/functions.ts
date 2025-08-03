@@ -13,6 +13,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
 import dotenv from 'dotenv'
+import { UserRole } from '../models/type.js';
 
 dotenv.config();
 
@@ -262,17 +263,17 @@ export const handleModCommand = async (message: Message) => {
         }
 
         if (action === 'add') {
-            if (user.role === 'moderator') {
+            if (user.role === UserRole.MODERATOR) {
                 await message.reply(`${username}はすでにモデレータです。`);
                 return;
             }
 
-            if (user.role === 'admin') {
+            if (user.role === UserRole.ADMIN) {
                 await message.reply(`${username}は管理者です。モデレーター権限を付与できません。`);
                 return;
             }
 
-            user.role = 'moderator';
+            user.role = UserRole.MODERATOR;
             await user.save();
 
             const embed = new EmbedBuilder()
@@ -283,12 +284,12 @@ export const handleModCommand = async (message: Message) => {
 
             await message.reply({ embeds: [embed] });
         } else if (action === 'remove') {
-            if (user.role !== 'moderator') {
+            if (user.role !== UserRole.MODERATOR) {
                 await message.reply(`${username}はモデレーターではありません。`);
                 return;
             }
 
-            user.role = 'user';
+            user.role = UserRole.USER;
             await user.save();
 
             const embed = new EmbedBuilder()

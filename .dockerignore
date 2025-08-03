@@ -29,7 +29,6 @@ build
 .vercel
 .netlify
 target/
-Cargo.lock
 *.exe
 *.dll
 *.so

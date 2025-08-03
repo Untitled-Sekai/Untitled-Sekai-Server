@@ -277,18 +277,40 @@ const ChartDetail: React.FC = () => {
                                 </button>
                                 <button className="delete-button" onClick={() => {
                                     if (window.confirm('本当にこの譜面を削除しますか？')) {
+                                        const token = localStorage.getItem('token');
+                                        if (!token) {
+                                            alert('ログインが必要です');
+                                            return;
+                                        }
+
                                         fetch(`/api/chart/delete/${chart.name}`, {
                                             method: 'DELETE',
+                                            headers: {
+                                                'Authorization': `Bearer ${token}`,
+                                                'Content-Type': 'application/json'
+                                            }
                                         })
                                             .then(response => {
                                                 if (!response.ok) {
+                                                    if (response.status === 401) {
+                                                        alert('ログインセッションが切れました');
+                                                        localStorage.removeItem('token');
+                                                        window.location.href = '/login';
+                                                        return;
+                                                    }
+                                                    if (response.status === 403) {
+                                                        alert('この譜面を削除する権限がありません');
+                                                        return;
+                                                    }
                                                     throw new Error('削除に失敗しました。');
                                                 }
                                                 return response.json();
                                             })
-                                            .then(_ => {
-                                                alert('譜面削除完了！');
-                                                window.location.href = '/charts';
+                                            .then(data => {
+                                                if (data) {
+                                                    alert('譜面削除完了！');
+                                                    window.location.href = '/charts';
+                                                }
                                             })
                                             .catch(error => {
                                                 console.error('削除エラー:', error);

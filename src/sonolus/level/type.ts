@@ -72,15 +72,15 @@ export interface LevelData {
         wasPublicBefore: boolean;
         derivative: {
             isDerivative: boolean;
-            id?: {  // idはオプショナルにする
+            id?: {
                 name: string;
             };
         };
-        fileOpen: boolean;  // オブジェクトじゃなくてbooleanだからね
-        originalUrl?: string;  // あるときだけ入るから？マークつける
+        fileOpen: boolean;
+        originalUrl?: string; 
         collaboration: {
             iscollaboration: boolean;
-            members?: Array<{  // これもオプショナルで配列型
+            members?: Array<{
                 handle: number;
             }>;
         },

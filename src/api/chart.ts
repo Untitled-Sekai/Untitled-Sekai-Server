@@ -4,6 +4,8 @@ import { MESSAGE } from "../message.js";
 import { RequestHandler } from "express";
 import { UserModel } from "../models/user.js";
 import { verifyToken } from "./middleware/isAuth.js"
+import { Request, Response } from 'express';
+import { cacheManager, CACHE_TTL } from '../utils/cache.js';
 
 const convertTagsToStringArray = (tags: any[]): string[] => {
     return tags?.map(tag => tag.title?.ja || tag.title?.en).filter(Boolean) || [];
@@ -402,6 +404,88 @@ export const getlikedCharts = async () => {
         }
     }) as RequestHandler);
 }
+
+export const getChartList = async (req: Request, res: Response) => {
+    try {
+        const { page = 1, limit = 20, search = '', category = 'all' } = req.query;
+        
+        // クエリパラメータからキャッシュキーを生成
+        const cacheKey = cacheManager.generateKey(
+            'charts',
+            'list',
+            String(page),
+            String(limit),
+            String(search),
+            String(category)
+        );
+
+        // キャッシュから取得を試みる
+        const cached = await cacheManager.get(cacheKey);
+        if (cached) {
+            console.log('譜面リストをキャッシュから取得');
+            return res.json(cached);
+        }
+
+        // DBクエリ実行
+        const query: any = {
+            'meta.isPublic': true,
+            'meta.isHidden': { $ne: true },
+            'meta.banned.isBanned': { $ne: true }
+        };
+
+        if (search) {
+            query.$or = [
+                { 'title.ja': { $regex: search, $options: 'i' } },
+                { 'title.en': { $regex: search, $options: 'i' } },
+                { 'artist.ja': { $regex: search, $options: 'i' } },
+                { 'artist.en': { $regex: search, $options: 'i' } },
+                { 'author.ja': { $regex: search, $options: 'i' } },
+                { 'author.en': { $regex: search, $options: 'i' } }
+            ];
+        }
+
+        const skip = (Number(page) - 1) * Number(limit);
+        const [charts, total] = await Promise.all([
+            LevelModel.find(query)
+                .sort({ uploadDate: -1 })
+                .skip(skip)
+                .limit(Number(limit))
+                .lean(),
+            LevelModel.countDocuments(query)
+        ]);
+
+        const result = {
+            success: true,
+            data: charts.map(chart => ({
+                _id: chart._id,
+                name: chart.name,
+                title: chart.title?.ja || chart.title?.en || '',
+                artist: chart.artists?.ja || chart.artists?.en || '',
+                author: chart.author?.ja || chart.author?.en || '',
+                rating: chart.rating,
+                uploadDate: chart.createdAt,
+                coverUrl: chart.cover?.url,
+                description: chart.description?.ja || chart.description?.en || '',
+                tags: chart.tags || [],
+                meta: chart.meta
+            })),
+            pagination: {
+                current: Number(page),
+                total: Math.ceil(total / Number(limit)),
+                hasNext: skip + Number(limit) < total,
+                hasPrev: Number(page) > 1
+            }
+        };
+
+        // 結果をキャッシュに保存
+        await cacheManager.set(cacheKey, result, CACHE_TTL.CHART_LIST);
+
+        res.json(result);
+    } catch (error) {
+        console.error('譜面リスト取得エラー:', error);
+        res.status(500).json({ success: false, error: 'サーバーエラー' });
+    }
+};
 
 export const charts = () => {
     getCharts();

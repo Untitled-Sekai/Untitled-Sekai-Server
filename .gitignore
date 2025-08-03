@@ -11,3 +11,6 @@ docker-compose.yml
 repository
 test.txt
 _data
+key.pem
+sync.py
+backup.json

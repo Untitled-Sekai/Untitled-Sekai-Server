@@ -152,6 +152,12 @@ const ChartEdit = () => {
         e.preventDefault();
         if (!chart) return;
 
+        const token = localStorage.getItem('token');
+        if (!token) {
+            alert('ログインが必要です');
+            navigate('/login', { state: { redirect: `/charts/${id}/edit` } });
+            return;
+        }
 
         const originalAuthor = chart.author.ja || chart.author.en || '';
         const handleMatch = originalAuthor.match(/#([^#]+)$/);
@@ -183,10 +189,20 @@ const ChartEdit = () => {
             console.log(chart.name)
             const response = await fetch(`/api/chart/edit/${chart.name}`, {
                 method: 'PATCH',
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                },
                 body: formData,
             });
 
             if (!response.ok) {
+                // トークン期限切れなどの認証エラーを処理
+                if (response.status === 401) {
+                    alert('ログインセッションが切れました。再度ログインしてください');
+                    navigate('/login', { state: { redirect: `/charts/${id}/edit` } });
+                    return;
+                }
+
                 const errorData = await response.json();
                 throw new Error(errorData.error || '更新に失敗');
             }

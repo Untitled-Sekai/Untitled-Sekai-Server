@@ -25,15 +25,17 @@ const dbConfigs: Record<string, DBConfig> = {
   },
   docker: {
     name: 'Docker',
-    uri: process.env.DOCKER_MONGODB_URI || 'mongodb://mongo:27017/untitled_sekai'
+    uri:
+      process.env.DOCKER_MONGODB_URI ||
+      `mongodb://appuser:${process.env.MONGO_APP_PWD}@mongodb:27017/untitled_sekai?authSource=untitled_sekai`
   },
   local: {
     name: 'ローカル開発',
-    uri: 'mongodb://localhost:27017/untitled_sekai_dev'
+    uri: `mongodb://appuser:${process.env.MONGO_APP_PWD}@localhost:27017/untitled_sekai_dev?authSource=untitled_sekai_dev`
   },
   data_dir: {
     name: '_dataディレクトリ',
-    uri: 'mongodb://localhost:27018/untitled_sekai' // 別ポートを使用
+    uri: `mongodb://appuser:${process.env.MONGO_APP_PWD}@localhost:27018/untitled_sekai?authSource=untitled_sekai`
   }
 };
 

@@ -27,7 +27,7 @@ COPY client/package*.json ./client/
 
 # Install client dependencies separately
 WORKDIR /app/client
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Back to app root
 WORKDIR /app

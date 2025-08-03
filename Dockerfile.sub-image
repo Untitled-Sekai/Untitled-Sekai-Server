@@ -12,7 +12,8 @@ RUN apt-get update && \
 
 # Copy manifests
 COPY sub-image/Cargo.toml ./sub-image/
-COPY Cargo.toml Cargo.lock ./
+# Copy manifests (Cargo.toml and Cargo.lock) to the root of the working directory
+COPY Cargo.toml ./
 
 # Copy source code
 COPY sub-image/src ./sub-image/src

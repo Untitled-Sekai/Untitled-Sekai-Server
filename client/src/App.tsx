@@ -18,6 +18,7 @@ import AdminDashboard from './components/Admin/AdminDashboard';
 import BanChecker from './components/Auth/BanChecker';
 import BannedPage from './components/Auth/BannedPage';
 import AnonymousManager from './components/Anonymous/AnonymousManager';
+import DanniList from './components/DanniList/DanniList'
 import './App.css';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -152,6 +153,7 @@ function App() {
               <Route path="/admin/ban" element={<BanManager />} />
               <Route path="/banned" element={<BannedPage />} />
               <Route path="/anonymous-manager" element={<AnonymousManager />} />
+              <Route path="/danni" element={<DanniList />} />
             </Routes>
           </main>
 

@@ -8,6 +8,8 @@ import { LevelModel } from "./models/level.js";
 import { Background } from "./models/background.js";
 import { startBot } from "./discord/launch.js";
 import { levelActions } from "./sonolus/level/type.js";
+import { fetchLevels } from "./db/fetch/level.js";
+import { fetchBackgrounds } from "./db/fetch/background.js";
 
 import { LevelItemModel,BackgroundItemModel } from "@sonolus/express";
 
@@ -21,17 +23,11 @@ export const install = async () => {
     api();
     auth();
     
-    const loadLevel = await LevelModel.find().sort({ createdAt: -1 }).lean();
-    sonolus.level.items = loadLevel.map(doc => {
-        const { _id, __v, createdAt, ...levelData } = doc;
-        return levelData as unknown as LevelItemModel;
-    });
+    const levels = await fetchLevels();
+    sonolus.level.items.unshift(...levels);
+    
     sonolus.level.actions = levelActions;
 
-    const loadBackground = await Background.find().sort({ createdAt: -1 }).lean();
-    const backgroundItems = loadBackground.map(doc => {
-        const { _id, __v, createdAt, ...backgroundData } = doc;
-        return backgroundData as unknown as BackgroundItemModel;
-    });
-    sonolus.background.items.unshift(...backgroundItems);
+    const backgrounds = await fetchBackgrounds();
+    sonolus.background.items.unshift(...backgrounds);
 }

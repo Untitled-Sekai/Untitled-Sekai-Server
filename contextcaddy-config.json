@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "default": {
+      "selectedFiles": {},
+      "prePrompt": "",
+      "includeFileTree": false
+    }
+  },
+  "activeProfile": "default"
+}

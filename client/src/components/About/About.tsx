@@ -25,6 +25,10 @@ const About: React.FC = () => {
               <p>Wiki制作</p>
             </li>
             <li>
+              <a href="https://x.com/halkun19" target='_blank' rel='noopener noreferrer' className='contact-link'>@halkun19</a>
+              <p>Wiki制作</p>
+            </li>
+            <li>
               <a href="http://discordapp.com/users/1178983271858708522" target="_blank" rel="noopener noreferrer" className="contact-link">@waidesu_</a>
               <p>Discordサーバーでのアイコンのデザイン</p>
             </li>
@@ -63,7 +67,7 @@ const About: React.FC = () => {
           <h2>GitHub</h2>
           <p>
             Untitled Sekaiはオープンソースです。<br /> <br />
-            <a href='' target="_blank" rel="noopener noreferrer" className="contact-link">github</a>
+            <a href='https://github.com/Untitled-Sekai/Untitled-Sekai-Server' target="_blank" rel="noopener noreferrer" className="contact-link">github</a>
           </p>
         </section>
         <section className='about-section'>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import './Profile.css';
 import MyChartList from '../Mychart/MyChartList';
+import SonolusAvatar from './SonolusAvatar';
 
 interface User {
     _id: string;
@@ -187,12 +188,25 @@ const Profile: React.FC = () => {
     return (
         <div className="profile-container">
             <div className="profile-header">
-                <div
-                    className="profile-avatar"
-                    style={{ backgroundColor: user.profile.iconColor }}
-                >
-                    {iconInitial}
-                </div>
+                {/* アバター表示部分を更新 */}
+                {user.sonolusAuth && user.sonolusProfile ? (
+                    <SonolusAvatar
+                        avatarType={user.sonolusProfile.avatarType}
+                        avatarForegroundType={user.sonolusProfile.avatarForegroundType}
+                        avatarForegroundColor={user.sonolusProfile.avatarForegroundColor}
+                        avatarBackgroundType={user.sonolusProfile.avatarBackgroundType}
+                        avatarBackgroundColor={user.sonolusProfile.avatarBackgroundColor}
+                        size={96}
+                        className="profile-avatar"
+                    />
+                ) : (
+                    <div
+                        className="profile-avatar"
+                        style={{ backgroundColor: user.profile.iconColor }}
+                    >
+                        {iconInitial}
+                    </div>
+                )}
 
                 <div className="profile-info">
                     <h1 className="profile-username">

@@ -2,11 +2,14 @@ import { sonolus } from "../../index.js";
 import { isValidSession, getProfile } from "../auth/state.js";
 import { LevelModel } from "../../models/level.js";
 import { UserModel } from "../../models/user.js";
+import { fetchLevels } from "../../db/fetch/level.js";
 import { LevelItemModel } from "@sonolus/express";
 
 export const detail_level = () => {
     sonolus.level.detailsHandler = async ({ itemName, session }) => {
-        const item = await LevelModel.findOne({ name: itemName }) as LevelItemModel;
+        const level = await fetchLevels()
+        
+        const item = level.filter(i => i.name === itemName)[0] as LevelItemModel;
         if (!item) return 404;
 
         let actions = [

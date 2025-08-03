@@ -1,6 +1,6 @@
 const fs = require('fs');
 try {
-  const data = JSON.parse(fs.readFileSync('/tmp/data/backup.json', 'utf8'));
+  const data = JSON.parse(fs.readFileSync('/tmp/scripts/backup.json', 'utf8'));
   
   Object.keys(data).forEach(collection => {
     if (Array.isArray(data[collection]) && data[collection].length > 0) {

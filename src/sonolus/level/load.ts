@@ -1,10 +1,33 @@
 import { LevelModel } from "../../models/level.js";
 import { LevelItemModel } from "@sonolus/express";
+import { cacheManager, CACHE_TTL } from "../../utils/cache.js";
 
 export async function fetchAndFormatLevels() {
-  const publicLevels = await LevelModel.find({ "meta.isPublic": true }).sort({ createdAt: -1 }).lean();
-  const privateLevels = await LevelModel.find({ "meta.isPublic": false }).sort({ createdAt: -1 }).lean();
-  
+  // キャッシュから取得を試みる
+  const cacheKey = cacheManager.generateKey('levels', 'formatted');
+  const cached = await cacheManager.get<{
+    publicLevels: LevelItemModel[];
+    privateLevels: LevelItemModel[];
+  }>(cacheKey);
+
+  if (cached) {
+    console.log('レベルリストをキャッシュから取得');
+    return cached;
+  }
+
+  // キャッシュにない場合はDBから取得
+  const publicLevels = await LevelModel.find({
+    'meta.isPublic': true,
+    'meta.isHidden': { $ne: true },
+    'meta.banned.isBanned': { $ne: true }
+  }).sort({ uploadDate: -1 }).lean();
+
+  const privateLevels = await LevelModel.find({
+    'meta.isPublic': false,
+    'meta.isHidden': { $ne: true },
+    'meta.banned.isBanned': { $ne: true }
+  }).sort({ uploadDate: -1 }).lean();
+
   const formattedPublicLevels = publicLevels.map(doc => {
     const { _id, __v, createdAt, ...levelData } = doc;
     return {
@@ -27,10 +50,15 @@ export async function fetchAndFormatLevels() {
     } as unknown as LevelItemModel;
   });
   
-  return {
+  const result = {
     publicLevels: formattedPublicLevels,
     privateLevels: formattedPrivateLevels
   };
+
+  // 結果をキャッシュに保存
+  await cacheManager.set(cacheKey, result, CACHE_TTL.LEVEL_LIST);
+
+  return result;
 }
 
 export async function getFormattedLevels() {

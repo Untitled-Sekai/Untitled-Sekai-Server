@@ -4,6 +4,7 @@ import { engine } from "./engine/index.js";
 import { redirectRouter } from "./router.js";
 import { setupWebAuth } from "./auth/webauth.js";
 import { background } from "./background/index.js";
+// import { sonolus_auth } from "./auth/auth.js"
 
 export const installSonolus = () => {
     setupWebAuth();
@@ -12,5 +13,5 @@ export const installSonolus = () => {
     engine();
     levels();
     background();
-
+    // sonolus_auth();
 }

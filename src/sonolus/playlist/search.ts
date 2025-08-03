@@ -1,9 +1,9 @@
+import { ServerFormsModel } from "@sonolus/express";
 import { Text, Icon } from "@sonolus/core";
 import { toMultiValues } from "../utils/form.js";
-import { difficulties } from "../utils/difficulty.js";
-import { ServerFormsModel } from '@sonolus/express'
+import { playlist_type } from "../utils/playlist.js";
 
-export const searches = {
+export const searches_playlist = {
     advanced: {
         title: { en: Text.Advanced },
         icon: Icon.Advanced,
@@ -24,37 +24,20 @@ export const searches = {
                 type: 'toggle',
                 def: false,
             },
-            private: {
-                name: { en: Text.Private },
-                required: false,
-                type: 'toggle',
-                def: false,
-                description: { en: 'You can need to login to see private levels.', ja: '非公開譜面を表示するにはログインが必要です。' },
-            },
             title: {
                 name: { en: Text.Title },
                 required: false,
                 type: 'text',
                 def: '',
                 placeholder: { en: Text.TitlePlaceholder },
-
                 shortcuts: [],
                 limit: 0,
             },
-            artists: {
-                name: { en: Text.Artists },
-                required: false,
-                type: 'text',
-                def: '',
-                placeholder: { en: Text.ArtistsPlaceholder },
-                shortcuts: [],
-                limit: 0,
-            },
-            difficulties: {
-                name: { en: Text.Difficulty },
+            type: {
+                name: { en: Text.Type },
                 required: false,
                 type: 'multi',
-                values: toMultiValues(difficulties)
+                values: toMultiValues(playlist_type),
             },
             minRating: {
                 name: { en: Text.RatingMinimum },
